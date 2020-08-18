@@ -1,4 +1,4 @@
-package com.example.sampleui2.Page8
+package com.example.sampleui2.Page8910
 
 import android.graphics.Outline
 import android.os.Build
@@ -11,7 +11,7 @@ import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
 import com.example.sampleui2.R
 
-class Adapter(var totalCards:Int):RecyclerView.Adapter<RecyclerView.ViewHolder>(){
+class Adapter8910(var totalCards:Int):RecyclerView.Adapter<RecyclerView.ViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         var view  = LayoutInflater.from(parent.context).inflate(R.layout.card_page8,parent,false)
         return Viewholder(view)
