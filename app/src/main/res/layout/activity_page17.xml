@@ -16,7 +16,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15">
+        app:layout_constraintTop_toBottomOf="@+id/page19_back">
 
         <TextView
             android:id="@+id/textView11"
@@ -96,7 +96,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
-        android:id="@+id/imageView15"
+        android:id="@+id/page19_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -106,7 +106,7 @@
         app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/page17_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"

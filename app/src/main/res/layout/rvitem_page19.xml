@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/RVItemHeading_page19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/RVItemContent_page19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RVItemHeading_page19"
+        tools:text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget elit sit amet justo tincidunt tincidunt sit amet sit amet justo. Donec felis ante, pellentesque eget tortor sed, feugiat efficitur nunc. Pellentesque orci ante, pretium eget urna at, feugiat pulvinar orci. Quisque enim enim, scelerisque quis placerat in, semper vel arcu. Fusce iaculis fermentum dignissim. In risus lacus, malesuada eget odio in, mattis rhoncus neque. Suspendisse ultrices maximus sapien sed molestie. Vivamus lectus quam, dignissim sagittis lacinia a, sollicitudin sed tellus. " />
+</androidx.constraintlayout.widget.ConstraintLayout>
