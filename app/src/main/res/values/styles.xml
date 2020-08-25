@@ -3,6 +3,7 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#ffffff</item>
+        <item name="colorControlNormal">#c5c5c5</item>
         <item name="colorPrimaryDark">#ffffff</item>
         <item name="colorAccent">#ffffff</item>
         <item name="android:windowTranslucentStatus">true</item>
