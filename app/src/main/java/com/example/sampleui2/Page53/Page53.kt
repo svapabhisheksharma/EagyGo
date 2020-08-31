@@ -11,7 +11,7 @@ class Page53 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_page53)
 
-        var textfield : TextInputLayout = findViewById(R.id.TextLayoutPage53)
+        var textfield : TextInputLayout = findViewById(R.id.textInputLayout)
 
         textfield.setEndIconOnClickListener {
             textfield.editText?.text = null
