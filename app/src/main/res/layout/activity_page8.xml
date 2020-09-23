@@ -24,7 +24,7 @@
         app:menu="@menu/bottomnavmenu" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv"
+        android:id="@+id/rvlol"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#ffffff"
@@ -37,7 +37,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="#2196F3"
+        android:background="#2680eb "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

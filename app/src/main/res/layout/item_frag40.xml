@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/imagefrag40"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_petrol" />
+
+    <TextView
+        android:id="@+id/name_frag40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:lineSpacingExtra="3sp"
+        android:text="Shane Martinez"
+        android:textColor="#4f5962"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/imagefrag40"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="9dp"
+        android:lineSpacingExtra="4sp"
+        android:text="On my way home but I needed
+to stop by the book car to..."
+        android:textColor="#a4a9ae"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView88"
+        app:layout_constraintStart_toEndOf="@+id/imagefrag40"
+        app:layout_constraintTop_toBottomOf="@+id/name_frag40" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="4sp"
+        android:text="5 min"
+        android:textColor="#a4a9ae"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/name_frag40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/name_frag40" />
+
+    <View
+        android:id="@+id/divider14"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="26.5dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView87" />
+</androidx.constraintlayout.widget.ConstraintLayout>

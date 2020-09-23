@@ -19,7 +19,7 @@ class Adapter8910(var totalCards:Int):RecyclerView.Adapter<RecyclerView.ViewHold
     }
 
     override fun getItemCount(): Int {
-        return totalCards;
+        return totalCards
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {

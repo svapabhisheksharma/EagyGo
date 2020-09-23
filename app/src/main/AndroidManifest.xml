@@ -9,7 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Page22.Page22"></activity>
+        <activity android:name=".Page41.Page41"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Page20.Page20" />
+        <activity android:name=".Page18.Page18" />
+        <activity android:name=".Page16.Page16" />
+        <activity android:name=".Page32.Page32" />
+        <activity android:name=".Page31.Page31" />
+        <activity android:name=".Page28.Page28" />
+        <activity android:name=".Page27.Page27" />
+        <activity android:name=".Page26.Page26" />
+        <activity android:name=".Page11.Page11" />
+        <activity android:name=".Page6.Page6" />
+        <activity android:name=".Page7.Page7" />
+        <activity android:name=".Page21.Page21" />
+        <activity android:name=".Page25.Page25" />
+        <activity android:name=".Page22.Page22" />
         <activity android:name=".Page52.Page52" />
         <activity android:name=".Page54.Page54" />
         <activity android:name=".Page53.Page53" />
@@ -24,13 +45,7 @@
         <activity android:name=".Page5.Page5" />
         <activity android:name=".Page4.Page4" />
         <activity android:name=".Page2.Page2" />
-        <activity android:name=".Page8910.Page8">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Page8910.Page8" />
     </application>
 
 </manifest>
