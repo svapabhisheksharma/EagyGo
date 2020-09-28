@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@android:color/transparent">
 
     <ImageView
@@ -20,10 +20,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="6dp"
-        android:textSize="14sp"
-        android:textColor="#4f5962"
         android:lineSpacingExtra="2sp"
         android:text="Alok Jain"
+        android:textColor="#4f5962"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/imgp32"
         app:layout_constraintTop_toTopOf="parent" />
@@ -91,10 +91,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:textSize="16sp"
-        android:textColor="#4f5962"
         android:lineSpacingExtra="3sp"
         android:text="Nice Experience and ride!"
+        android:textColor="#4f5962"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgp32" />
 

@@ -1,17 +1,22 @@
 package com.example.sampleui2.Page8910
 
+import android.content.Intent
 import android.graphics.Outline
 import android.os.Build
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.ViewOutlineProvider
 import android.widget.ImageView
 import androidx.annotation.RequiresApi
+import androidx.core.content.ContextCompat.startActivity
+import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
+import com.example.sampleui2.Page1112.Page11
 import com.example.sampleui2.R
 
-class Adapter8910(var totalCards:Int):RecyclerView.Adapter<RecyclerView.ViewHolder>(){
+class Adapter8910(var totalCards:Int,val  activity:FragmentActivity?,val isfavourite:Boolean):RecyclerView.Adapter<RecyclerView.ViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         var view  = LayoutInflater.from(parent.context).inflate(R.layout.card_page8,parent,false)
         return Viewholder(view)
@@ -23,12 +28,22 @@ class Adapter8910(var totalCards:Int):RecyclerView.Adapter<RecyclerView.ViewHold
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
-        (holder as Viewholder).bindItems()
+        (holder as Viewholder).bindItems(isfavourite,position)
+        holder.itemView.setOnClickListener {
+            val intent = Intent(activity,Page11::class.java)
+            startActivity(holder.itemView.context,intent, Bundle.EMPTY)
+        }
     }
 
     class Viewholder(itemView:View) : RecyclerView.ViewHolder(itemView) {
         private val image: ImageView = itemView.findViewById(R.id.imageView2)
-        fun bindItems() {
+        fun bindItems(isfav:Boolean,position:Int) {
+            val star:ImageView = itemView.findViewById(R.id.fav)
+            if(isfav)   star.visibility = View.VISIBLE
+
+            if (position%2==0)
+                image.setImageResource(R.drawable.unnamed)
+
             val curveRadius = 30F
 
             image.outlineProvider = object : ViewOutlineProvider() {

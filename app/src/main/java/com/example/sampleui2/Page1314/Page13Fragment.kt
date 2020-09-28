@@ -43,17 +43,17 @@ class Page13Fragment : Fragment() {
         val list = listOf<Modelfrag13>(
                 Modelfrag13("Mini Cooper",R.drawable.mini_png_11772,0),
                 Modelfrag13("Fortuner",R.drawable.toyota_fortuner_png_8,1),
-                Modelfrag13("Mini Cooper",R.drawable.mini_png_11772,2),
+                Modelfrag13("Mini Cooper",R.drawable.mini_png_11772,4),
                 Modelfrag13("Fortuner",R.drawable.toyota_fortuner_png_8,3),
                 Modelfrag13("Mini Cooper",R.drawable.mini_png_11772,0),
                 Modelfrag13("Mini Cooper",R.drawable.mini_png_11772,1),
                 Modelfrag13("Fortuner",R.drawable.toyota_fortuner_png_8,2),
-                Modelfrag13("Fortuner",R.drawable.toyota_fortuner_png_8,3),
+                Modelfrag13("Fortuner",R.drawable.toyota_fortuner_png_8,4),
                 Modelfrag13("Mini Cooper",R.drawable.mini_png_11772,1),
                 Modelfrag13("Mini Cooper",R.drawable.mini_png_11772,2)
         )
         rv.layoutManager = LinearLayoutManager(context,LinearLayoutManager.VERTICAL,false)
-        rv.adapter = AdapterFrag13(list)
+        rv.adapter = AdapterFrag13(list,activity)
         rv.addItemDecoration(RvDecorationLinear(
                 (resources.displayMetrics.density * 18).roundToInt(),
                 (resources.displayMetrics.density * 20).roundToInt()

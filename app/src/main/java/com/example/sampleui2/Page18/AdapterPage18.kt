@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.sampleui2.R
 
-class AdapterPage18(val list: List<ModelPAge18>) : RecyclerView.Adapter<AdapterPage18.ViewHolder>() {
+class AdapterPage18(val list: List<ModelPAge18>,val itemClickHandler:(Int)->Unit) : RecyclerView.Adapter<AdapterPage18.ViewHolder>() {
     class ViewHolder(itemView:View) : RecyclerView.ViewHolder(itemView) {
 
         private val img : ImageView = itemView.findViewById(R.id.imgp18)
@@ -27,6 +27,9 @@ class AdapterPage18(val list: List<ModelPAge18>) : RecyclerView.Adapter<AdapterP
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bindItems(list[position].imgresource,list[position].title)
+        holder.itemView.setOnClickListener {
+            itemClickHandler.invoke(position)
+        }
     }
 
     override fun getItemCount(): Int {

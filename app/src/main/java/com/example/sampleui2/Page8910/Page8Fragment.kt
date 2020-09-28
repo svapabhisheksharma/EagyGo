@@ -42,7 +42,7 @@ class Page8Fragment : Fragment() {
         val rv: RecyclerView = view.findViewById(R.id.rv)
 
         rv.layoutManager = LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL,false)
-        rv.adapter = Adapter8910(6)
+        rv.adapter = Adapter8910(6,activity,false)
 
         rv.addItemDecoration(RvDecorationLinear(
                 (resources.displayMetrics.density * 18).roundToInt(),

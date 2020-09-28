@@ -5,7 +5,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.sampleui2.Page8910.Adapter8910
 import com.example.sampleui2.R
+import com.example.sampleui2.RvDecorationLinear
+import kotlin.math.roundToInt
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -33,7 +38,18 @@ class Page49Fragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_page49, container, false)
+        val view: View = inflater.inflate(R.layout.fragment_page49, container, false)
+
+        val rv: RecyclerView = view.findViewById(R.id.rvp49)
+
+        rv.layoutManager = LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL,false)
+        rv.adapter = Adapter8910(6,activity,true)
+
+        rv.addItemDecoration(RvDecorationLinear(
+                (resources.displayMetrics.density * 18).roundToInt(),
+                (resources.displayMetrics.density * 16).roundToInt()
+        ))
+        return view
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

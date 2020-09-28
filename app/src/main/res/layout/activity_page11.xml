@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2680eb "
-    tools:context=".Page11.Page11">
+    tools:context=".Page1112.Page11">
 
     <ImageView
-        android:id="@+id/imageView17"
+        android:id="@+id/page11back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -29,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Car Details" />
+        android:text="Car Details" />
 
     <ImageView
         android:id="@+id/imageView18"
@@ -50,7 +50,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView17">
+        app:layout_constraintTop_toBottomOf="@+id/page11back">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_page11"
@@ -64,7 +64,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
-        android:layout_width="409dp"
+        android:layout_width="0dp"
         android:layout_height="85dp"
         android:background="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -132,7 +132,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/textView36"
+                android:id="@+id/textcheck"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="3sp"

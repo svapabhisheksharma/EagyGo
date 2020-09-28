@@ -16,7 +16,7 @@ class Page9 : AppCompatActivity() {
         val rv: RecyclerView = findViewById(R.id.page_9_rv)
 
         rv.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false)
-        rv.adapter = Adapter8910(6)
+        //rv.adapter = Adapter8910(6)
 
         rv.addItemDecoration(RvDecorationLinear(
                 (resources.displayMetrics.density * 16).roundToInt(),

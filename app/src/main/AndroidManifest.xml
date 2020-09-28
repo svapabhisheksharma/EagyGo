@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Page41.Page41"></activity>
+        <activity android:name=".Page43.Page43"></activity>
+        <activity android:name=".Page29.Page29" />
+        <activity android:name=".Page24.Page24" />
+        <activity android:name=".Page23.Page23" />
+        <activity android:name=".Page35363839.Page35363839" />
+        <activity android:name=".Page41.Page41" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +30,7 @@
         <activity android:name=".Page28.Page28" />
         <activity android:name=".Page27.Page27" />
         <activity android:name=".Page26.Page26" />
-        <activity android:name=".Page11.Page11" />
+        <activity android:name=".Page1112.Page11" />
         <activity android:name=".Page6.Page6" />
         <activity android:name=".Page7.Page7" />
         <activity android:name=".Page21.Page21" />

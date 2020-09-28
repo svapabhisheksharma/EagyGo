@@ -11,9 +11,11 @@ import com.example.sampleui2.Page8910.Page8Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
         val bottomnavigation : BottomNavigationView = findViewById(R.id.bottomNavigationViewMain)
 

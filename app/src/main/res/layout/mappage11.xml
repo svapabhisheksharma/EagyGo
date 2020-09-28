@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="#ffffff">
 
     <TextView
@@ -30,11 +30,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_left_arrow_2" />
 
-    <com.google.android.gms.maps.MapView
+    <ImageView
         android:id="@+id/mapView"
         android:layout_width="0dp"
         android:layout_height="198dp"
         android:layout_marginTop="16dp"
+        android:src="@drawable/image_6"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

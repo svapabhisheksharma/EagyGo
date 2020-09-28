@@ -67,7 +67,7 @@
             android:layout_marginStart="18dp"
             android:layout_marginTop="19dp"
             android:layout_marginEnd="18dp"
-            android:scaleType="centerCrop"
+            android:scaleType="centerInside"
             android:translationZ="0dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -88,7 +88,7 @@
             android:layout_height="0dp"
             android:layout_marginTop="18dp"
             android:translationZ="0dp"
-            app:layout_constraintBottom_toTopOf="@+id/buttonP26"
+            app:layout_constraintBottom_toTopOf="@+id/buttonP28"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bigimage_page28" />

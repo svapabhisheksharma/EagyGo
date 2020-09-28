@@ -2,6 +2,7 @@ package com.example.sampleui2.Page19
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.sampleui2.R
@@ -26,6 +27,9 @@ class Page19 : AppCompatActivity() {
         rv.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
         rv.adapter = Adapter19(list19)
         rv.addItemDecoration(RvDecorationLinear((resources.displayMetrics.density*16).roundToInt(),(resources.displayMetrics.density*16).roundToInt()))
+        findViewById<ImageView>(R.id.page19_back).setOnClickListener {
+            finish()
+        }
 
     }
 }

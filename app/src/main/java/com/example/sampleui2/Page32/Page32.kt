@@ -2,6 +2,7 @@ package com.example.sampleui2.Page32
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -34,5 +35,9 @@ class Page32 : AppCompatActivity() {
                 (resources.displayMetrics.density * 18).roundToInt(),
                 (resources.displayMetrics.density * 18).roundToInt()
         ))
+
+        findViewById<ImageView>(R.id.page32_back).setOnClickListener {
+            finish()
+        }
     }
 }
