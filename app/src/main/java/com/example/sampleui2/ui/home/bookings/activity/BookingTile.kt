@@ -19,13 +19,13 @@ class BookingTile : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.booking_tile_activity)
 
-        val title : TextView = findViewById(R.id.p35title)
-        val back : ImageView =findViewById(R.id.p35back)
-        val rv : RecyclerView = findViewById(R.id.rvp35)
+        val title : TextView = findViewById(R.id.txt_title)
+        val back : ImageView =findViewById(R.id.img_back)
+        val rv : RecyclerView = findViewById(R.id.recyclerview)
         val bottomLayout: ConstraintLayout = findViewById(R.id.bottomconstraintlayout)
-        val cancelButton : Button = findViewById(R.id.cancelbuttonbottom)
-        val approveButton : Button = findViewById(R.id.approvebuttonbottom)
-        val chatUserButton :Button = findViewById(R.id.chatwuserbuttton)
+        val cancelButton : Button = findViewById(R.id.btn_cancel)
+        val approveButton : Button = findViewById(R.id.btn_approve)
+        val chatUserButton :Button = findViewById(R.id.btn_chatwuser)
 
         val pageType : Int= intent.extras?.get("pageType") as Int
         Log.d("pageType",pageType.toString())

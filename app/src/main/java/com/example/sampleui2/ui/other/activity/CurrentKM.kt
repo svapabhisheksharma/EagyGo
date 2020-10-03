@@ -10,7 +10,7 @@ class CurrentKM : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.other_currentkm_activity)
 
-        var textfield : TextInputLayout = findViewById(R.id.textInputLayout)
+        var textfield : TextInputLayout = findViewById(R.id.textInputLayout_carfreekm)
 
         textfield.setEndIconOnClickListener {
             textfield.editText?.text = null

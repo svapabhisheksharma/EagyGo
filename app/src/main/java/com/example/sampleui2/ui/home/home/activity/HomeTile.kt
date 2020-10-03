@@ -24,18 +24,18 @@ class HomeTile : AppCompatActivity() {
         list.add(HomeTileModel(3))
         list.add(HomeTileModel(4))
         list.add(HomeTileModel(5))
-        val rv:RecyclerView = findViewById(R.id.rv_page11)
+        val rv:RecyclerView = findViewById(R.id.recyclerview)
         rv.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
         val adapterp11 = HomeTileAdapter(list,this)
         rv.adapter = adapterp11
 
-        findViewById<ImageView>(R.id.page11back).setOnClickListener {
+        findViewById<ImageView>(R.id.img_back).setOnClickListener {
             finish()
         }
 
-        val check :ConstraintLayout = findViewById(R.id.checklayoutp11)
+        val check :ConstraintLayout = findViewById(R.id.layoutbtn_checkavai)
 
-        val text : TextView = findViewById(R.id.textcheck)
+        val text : TextView = findViewById(R.id.txt_checkavai)
 
         check.setOnClickListener {
            list.removeAt(2)

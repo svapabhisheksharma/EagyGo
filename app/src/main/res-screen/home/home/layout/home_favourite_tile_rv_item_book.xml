@@ -7,7 +7,7 @@
     android:background="@android:color/transparent">
 
     <ImageView
-        android:id="@+id/imageView17"
+        android:id="@+id/img_days"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -15,11 +15,11 @@
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView63"
+        app:layout_constraintTop_toBottomOf="@+id/img_calander"
         app:srcCompat="@drawable/ic_p12" />
 
     <ImageView
-        android:id="@+id/imageView63"
+        android:id="@+id/img_calander"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -29,7 +29,7 @@
         app:srcCompat="@drawable/ic_p12cal" />
 
     <TextView
-        android:id="@+id/textView86"
+        android:id="@+id/txt_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
@@ -37,12 +37,12 @@
         android:text="01 Jun, 10: am - 06 Jun, 11:00 pm"
         android:textColor="#4f5962"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView63"
-        app:layout_constraintStart_toEndOf="@+id/imageView63"
-        app:layout_constraintTop_toTopOf="@+id/imageView63" />
+        app:layout_constraintBottom_toBottomOf="@+id/img_calander"
+        app:layout_constraintStart_toEndOf="@+id/img_calander"
+        app:layout_constraintTop_toTopOf="@+id/img_calander" />
 
     <TextView
-        android:id="@+id/textView89"
+        android:id="@+id/txt_days"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
@@ -50,12 +50,12 @@
         android:text="06 Days"
         android:textColor="#4f5962"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView17"
-        app:layout_constraintStart_toEndOf="@+id/imageView17"
-        app:layout_constraintTop_toTopOf="@+id/imageView17" />
+        app:layout_constraintBottom_toBottomOf="@+id/img_days"
+        app:layout_constraintStart_toEndOf="@+id/img_days"
+        app:layout_constraintTop_toTopOf="@+id/img_days" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_edit"
         android:layout_width="80dp"
         android:layout_height="34dp"
         android:layout_marginEnd="14dp"
@@ -66,5 +66,5 @@
         android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView86" />
+        app:layout_constraintTop_toTopOf="@+id/txt_date" />
 </androidx.constraintlayout.widget.ConstraintLayout>

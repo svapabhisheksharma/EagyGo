@@ -93,7 +93,7 @@ class HomeTileAdapter(val list:List<HomeTileModel>, val context: Context):Recycl
         }
     }
     class VHReviews(view:View):RecyclerView.ViewHolder(view){
-        private val image = view.findViewById<ImageView>(R.id.gotoreviews)
+        private val image = view.findViewById<ImageView>(R.id.img_forward)
         fun bindItems(context:Context){
             image.setOnClickListener {
                 val intent= Intent(context, Reviews::class.java)

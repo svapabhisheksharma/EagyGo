@@ -8,7 +8,7 @@
     tools:context=".ui.home.bookings.activity.Rate">
 
     <ImageView
-        android:id="@+id/page43_back"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -25,10 +25,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page43_back">
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/page43_rv"
+            android:id="@+id/recyclerview"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"

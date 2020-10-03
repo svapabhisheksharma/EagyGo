@@ -14,7 +14,7 @@
         android:layout_height="wrap_content">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout5"
+            android:id="@+id/constraintLayout"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginStart="14dp"
@@ -24,7 +24,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
-                android:id="@+id/imagefrag14"
+                android:id="@+id/img_car"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -35,7 +35,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
-            android:id="@+id/namefrag14"
+            android:id="@+id/txt_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
@@ -45,11 +45,11 @@
             android:textColor="#4f5962"
             android:textSize="14sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/constraintLayout5"
-            app:layout_constraintTop_toTopOf="@+id/constraintLayout5" />
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+            app:layout_constraintTop_toTopOf="@+id/constraintLayout" />
 
         <TextView
-            android:id="@+id/datefrag14"
+            android:id="@+id/txt_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
@@ -59,11 +59,11 @@
             android:text="06-05-2020 / 02:00pm"
             android:textColor="#8e949a"
             android:textSize="12sp"
-            app:layout_constraintStart_toEndOf="@+id/constraintLayout5"
-            app:layout_constraintTop_toBottomOf="@+id/textView84" />
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+            app:layout_constraintTop_toBottomOf="@+id/txt_contact" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/statuscirclefrag14"
+            android:id="@+id/constraint_status"
             android:layout_width="12dp"
             android:layout_height="12dp"
             android:layout_marginStart="15dp"
@@ -71,13 +71,13 @@
             android:layout_marginBottom="18dp"
             android:background="@drawable/car_rounded"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/constraintLayout5"
-            app:layout_constraintTop_toBottomOf="@+id/datefrag14">
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+            app:layout_constraintTop_toBottomOf="@+id/txt_date">
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
-            android:id="@+id/statusfrag14"
+            android:id="@+id/txt_status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
@@ -85,12 +85,12 @@
             android:text="PENDING"
             android:textColor="#ff1414"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="@+id/statuscirclefrag14"
-            app:layout_constraintStart_toEndOf="@+id/statuscirclefrag14"
-            app:layout_constraintTop_toTopOf="@+id/statuscirclefrag14" />
+            app:layout_constraintBottom_toBottomOf="@+id/constraint_status"
+            app:layout_constraintStart_toEndOf="@+id/constraint_status"
+            app:layout_constraintTop_toTopOf="@+id/constraint_status" />
 
         <Button
-            android:id="@+id/buttonfrag14"
+            android:id="@+id/btn_rate"
             android:layout_width="56dp"
             android:layout_height="24dp"
             android:layout_marginEnd="11dp"
@@ -104,7 +104,7 @@
             app:layout_constraintEnd_toEndOf="parent" />
 
         <TextView
-            android:id="@+id/textView72"
+            android:id="@+id/txt_bookedby"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
@@ -113,11 +113,11 @@
             android:text="Booked by :"
             android:textColor="#8e949a"
             android:textSize="12sp"
-            app:layout_constraintStart_toEndOf="@+id/constraintLayout5"
-            app:layout_constraintTop_toBottomOf="@+id/namefrag14" />
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+            app:layout_constraintTop_toBottomOf="@+id/txt_name" />
 
         <TextView
-            android:id="@+id/textView83"
+            android:id="@+id/txt_bookedby_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -126,13 +126,13 @@
             android:text="Jhon Doe"
             android:textColor="#4f5962"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView72"
-            app:layout_constraintStart_toEndOf="@+id/textView72"
-            app:layout_constraintTop_toBottomOf="@+id/namefrag14"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_bookedby"
+            app:layout_constraintStart_toEndOf="@+id/txt_bookedby"
+            app:layout_constraintTop_toBottomOf="@+id/txt_name"
             app:layout_constraintVertical_bias="1.0" />
 
         <TextView
-            android:id="@+id/textView84"
+            android:id="@+id/txt_contact"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
@@ -141,11 +141,11 @@
             android:textColor="#8e949a"
             android:lineSpacingExtra="3sp"
             android:text="Contact      :"
-            app:layout_constraintStart_toEndOf="@+id/constraintLayout5"
-            app:layout_constraintTop_toBottomOf="@+id/textView72" />
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+            app:layout_constraintTop_toBottomOf="@+id/txt_bookedby" />
 
         <TextView
-            android:id="@+id/textView85"
+            android:id="@+id/txt_contactnumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -153,12 +153,12 @@
             android:text="+91-00000000"
             android:textColor="#4f5962"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView84"
-            app:layout_constraintStart_toEndOf="@+id/textView84"
-            app:layout_constraintTop_toTopOf="@+id/textView84" />
+            app:layout_constraintBottom_toBottomOf="@+id/txt_contact"
+            app:layout_constraintStart_toEndOf="@+id/txt_contact"
+            app:layout_constraintTop_toTopOf="@+id/txt_contact" />
 
         <ImageView
-            android:id="@+id/starfrag14"
+            android:id="@+id/img_stars"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="17dp"

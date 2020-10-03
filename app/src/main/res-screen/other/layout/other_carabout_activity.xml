@@ -8,7 +8,7 @@
     tools:context=".ui.other.activity.CarAbout">
 
     <ImageView
-        android:id="@+id/page22_back"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ic_backshade" />
 
     <TextView
-        android:id="@+id/page22_heading"
+        android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
@@ -39,10 +39,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page22_back">
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/txt_toptext"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -57,7 +57,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/txt_heading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -67,11 +67,11 @@
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            app:layout_constraintTop_toBottomOf="@+id/txt_toptext"
             android:text="About Car (max 150 characters)" />
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/txt_subheading"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -82,11 +82,11 @@
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/txt_heading"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel lectus ac felis fermentum mattis. Cras porttitor ultricies nibh id porttitor. Curabitur ut consectetur risus. Nullam fringilla non leo nec cursus. Quisque facilisis at turpis egestas placerat. Sed quis lobortis justo, non maximus quam. Donec vitae ornare quam. Mauris aliquet malesuada lorem posuere molestie. Sed ut maximus magna, dapibus consequat ipsum" />
 
         <Button
-            android:id="@+id/buttonP22"
+            android:id="@+id/btn_continue"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

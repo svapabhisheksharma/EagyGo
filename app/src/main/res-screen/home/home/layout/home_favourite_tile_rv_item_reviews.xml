@@ -7,7 +7,7 @@
     android:background="#ffffff">
 
     <TextView
-        android:id="@+id/textView48"
+        android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -21,18 +21,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView38"
+        android:id="@+id/img_person"
         android:layout_width="44dp"
         android:layout_height="44dp"
         android:layout_marginStart="18dp"
         android:layout_marginTop="14dp"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView48"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title"
         app:srcCompat="@drawable/ic_petrol" />
 
     <TextView
-        android:id="@+id/textView53"
+        android:id="@+id/txt_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -42,11 +42,11 @@
         android:textColor="#4f5962"
         android:textSize="14sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView38"
-        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+        app:layout_constraintStart_toEndOf="@+id/img_person"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title" />
 
     <TextView
-        android:id="@+id/textView54"
+        android:id="@+id/txt_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -55,57 +55,57 @@
         android:text="10-05-2020"
         android:textColor="#4f5962"
         android:textSize="12sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView38"
-        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+        app:layout_constraintStart_toEndOf="@+id/img_person"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name" />
 
     <ImageView
-        android:id="@+id/imageView39"
+        android:id="@+id/img_star_2"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginEnd="5dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView55"
-        app:layout_constraintTop_toTopOf="@+id/imageView43"
+        app:layout_constraintEnd_toStartOf="@+id/txt_noofreviews"
+        app:layout_constraintTop_toTopOf="@+id/img_star_5"
         app:srcCompat="@drawable/ic_star_filled" />
 
     <ImageView
-        android:id="@+id/imageView40"
+        android:id="@+id/img_star_1"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginTop="28.5dp"
         android:layout_marginEnd="2dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView41"
-        app:layout_constraintTop_toBottomOf="@+id/textView48"
+        app:layout_constraintEnd_toStartOf="@+id/img_star_3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title"
         app:srcCompat="@drawable/ic_star_filled" />
 
     <ImageView
-        android:id="@+id/imageView41"
+        android:id="@+id/img_star_3"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginEnd="2dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView42"
-        app:layout_constraintTop_toTopOf="@+id/imageView40"
+        app:layout_constraintEnd_toStartOf="@+id/img_star_4"
+        app:layout_constraintTop_toTopOf="@+id/img_star_1"
         app:srcCompat="@drawable/ic_star_filled" />
 
     <ImageView
-        android:id="@+id/imageView42"
+        android:id="@+id/img_star_4"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginEnd="2dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView43"
-        app:layout_constraintTop_toTopOf="@+id/imageView41"
+        app:layout_constraintEnd_toStartOf="@+id/img_star_5"
+        app:layout_constraintTop_toTopOf="@+id/img_star_3"
         app:srcCompat="@drawable/ic_star_filled" />
 
     <ImageView
-        android:id="@+id/imageView43"
+        android:id="@+id/img_star_5"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginEnd="2dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView39"
-        app:layout_constraintTop_toTopOf="@+id/imageView42"
+        app:layout_constraintEnd_toStartOf="@+id/img_star_2"
+        app:layout_constraintTop_toTopOf="@+id/img_star_4"
         app:srcCompat="@drawable/ic_star_filled" />
 
     <TextView
-        android:id="@+id/textView55"
+        android:id="@+id/txt_noofreviews"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="21dp"
@@ -114,20 +114,20 @@
         android:textColor="#4f5962"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView39" />
+        app:layout_constraintTop_toTopOf="@+id/img_star_2" />
 
     <View
-        android:id="@+id/divider7"
+        android:id="@+id/divider"
         android:layout_width="0dp"
         android:layout_height="1dp"
         android:layout_marginTop="20.5dp"
         android:background="?android:attr/listDivider"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView38" />
+        app:layout_constraintTop_toBottomOf="@+id/img_person" />
 
     <TextView
-        android:id="@+id/textView56"
+        android:id="@+id/txt_readall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -139,15 +139,15 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider7" />
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
 
     <ImageView
-        android:id="@+id/gotoreviews"
+        android:id="@+id/img_forward"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider7"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
         app:srcCompat="@drawable/ic_left_arrow_2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

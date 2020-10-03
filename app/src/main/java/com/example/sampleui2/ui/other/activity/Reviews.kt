@@ -26,7 +26,7 @@ class Reviews : AppCompatActivity() {
         list.add(ReviewsModel(R.drawable.ic_baseline_remove_circle_24,"Alok Jain","10-05-2021",""))
         list.add(ReviewsModel(R.drawable.ic_baseline_remove_circle_24,"Alok Jain","10-05-2021","Noice Ride"))
 
-        val rv : RecyclerView = findViewById(R.id.rvpage32)
+        val rv : RecyclerView = findViewById(R.id.recyclerview)
         val lm = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
         rv.apply {
             adapter = ReviewsAdapter(list)
@@ -37,7 +37,7 @@ class Reviews : AppCompatActivity() {
                 (resources.displayMetrics.density * 18).roundToInt()
         ))
 
-        findViewById<ImageView>(R.id.page32_back).setOnClickListener {
+        findViewById<ImageView>(R.id.img_back).setOnClickListener {
             finish()
         }
     }

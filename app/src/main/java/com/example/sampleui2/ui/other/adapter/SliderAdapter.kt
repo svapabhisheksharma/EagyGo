@@ -9,7 +9,7 @@ import com.example.sampleui2.R
 
 class SliderAdapter(val list : List<Int>):RecyclerView.Adapter<SliderAdapter.SliderViewHolder>(){
     class SliderViewHolder(itemView:View) : RecyclerView.ViewHolder(itemView){
-        val imageView : ImageView = itemView.findViewById(R.id.image_imageSlider)
+        val imageView : ImageView = itemView.findViewById(R.id.img_imageSlider)
         fun bindItems(resource:Int){
             imageView.setImageResource(resource)
         }

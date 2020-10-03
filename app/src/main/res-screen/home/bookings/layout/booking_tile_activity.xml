@@ -10,7 +10,7 @@
 
 
         <ImageView
-            android:id="@+id/p35back"
+            android:id="@+id/img_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -20,7 +20,7 @@
             app:srcCompat="@drawable/ic_backshade" />
 
     <TextView
-        android:id="@+id/p35title"
+        android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="11dp"
@@ -28,13 +28,13 @@
         android:lineSpacingExtra="4sp"
         android:textColor="#ffffff"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/p35back"
-        app:layout_constraintStart_toEndOf="@+id/p35back"
-        app:layout_constraintTop_toTopOf="@+id/p35back"
+        app:layout_constraintBottom_toBottomOf="@+id/img_back"
+        app:layout_constraintStart_toEndOf="@+id/img_back"
+        app:layout_constraintTop_toTopOf="@+id/img_back"
         tools:text="Pending Request" />
 
         <TextView
-            android:id="@+id/textView90"
+            android:id="@+id/txt_bookingid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="18dp"
@@ -43,9 +43,9 @@
             android:text="Booking ID:123456"
             android:textColor="#ffffff"
             android:textSize="14sp"
-            app:layout_constraintBottom_toBottomOf="@+id/p35title"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_title"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/p35title" />
+            app:layout_constraintTop_toTopOf="@+id/txt_title" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="0dp"
@@ -55,10 +55,10 @@
             app:layout_constraintBottom_toTopOf="@+id/bottomconstraintlayout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/p35back">
+            app:layout_constraintTop_toBottomOf="@+id/img_back">
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvp35"
+                android:id="@+id/recyclerview"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -77,7 +77,7 @@
             app:layout_constraintStart_toStartOf="parent">
 
             <Button
-                android:id="@+id/chatwuserbuttton"
+                android:id="@+id/btn_chatwuser"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="18dp"
@@ -95,7 +95,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/cancelbuttonbottom"
+                android:id="@+id/btn_cancel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="18dp"
@@ -108,12 +108,12 @@
                 android:textStyle="bold"
                 android:visibility="gone"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/approvebuttonbottom"
+                app:layout_constraintEnd_toStartOf="@+id/btn_approve"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/approvebuttonbottom"
+                android:id="@+id/btn_approve"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
@@ -127,7 +127,7 @@
                 android:visibility="gone"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/cancelbuttonbottom"
+                app:layout_constraintStart_toEndOf="@+id/btn_cancel"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

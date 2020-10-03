@@ -15,7 +15,7 @@ class Rate : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.booking_tile_rate_activity)
         window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN)
-        val rv: RecyclerView = findViewById(R.id.page43_rv)
+        val rv: RecyclerView = findViewById(R.id.recyclerview)
 
         val list = listOf(
                 RateModel(0),
@@ -26,7 +26,7 @@ class Rate : AppCompatActivity() {
         rv.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false)
         rv.adapter = RateAdapter(list)
 
-        findViewById<ImageView>(R.id.page43_back).setOnClickListener {
+        findViewById<ImageView>(R.id.img_back).setOnClickListener {
             finish()
         }
     }

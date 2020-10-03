@@ -12,7 +12,7 @@ class ForgotPassword : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login_forgotpassword)
 
-        val textinputlayout : TextInputLayout = findViewById(R.id.textinputlayoutp6)
+        val textinputlayout : TextInputLayout = findViewById(R.id.txtinputlayout_email)
 
         textinputlayout.editText?.addTextChangedListener(object : TextWatcher{
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {

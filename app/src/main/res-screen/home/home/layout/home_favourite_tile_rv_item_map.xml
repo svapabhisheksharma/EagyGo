@@ -7,7 +7,7 @@
     android:background="#ffffff">
 
     <TextView
-        android:id="@+id/textView44"
+        android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -16,12 +16,12 @@
         android:textColor="#4f5962"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/mapView"
+        app:layout_constraintBottom_toTopOf="@+id/img_map"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/img_forward"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -31,7 +31,7 @@
         app:srcCompat="@drawable/ic_left_arrow_2" />
 
     <ImageView
-        android:id="@+id/mapView"
+        android:id="@+id/img_map"
         android:layout_width="0dp"
         android:layout_height="198dp"
         android:layout_marginTop="16dp"
@@ -40,5 +40,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+        app:layout_constraintTop_toBottomOf="@+id/img_forward" />
 </androidx.constraintlayout.widget.ConstraintLayout>

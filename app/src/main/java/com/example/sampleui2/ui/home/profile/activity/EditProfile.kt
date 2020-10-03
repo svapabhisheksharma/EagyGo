@@ -15,7 +15,7 @@ class EditProfile : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.profile_edit_activity)
 
-        val changePassword = findViewById<TextView>(R.id.change_password)
+        val changePassword = findViewById<TextView>(R.id.txt_xhangepassword)
 
         changePassword.setOnClickListener {
             Log.d("change Password clicked","true")
@@ -23,12 +23,12 @@ class EditProfile : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val save = findViewById<Button>(R.id.save_page16)
+        val save = findViewById<Button>(R.id.btn_save)
         save.setOnClickListener {
             Toast.makeText(applicationContext,"Profile saved successfully", Toast.LENGTH_SHORT).show()
         }
 
-        val back : ImageView = findViewById(R.id.page16_back)
+        val back : ImageView = findViewById(R.id.img_back)
         back.setOnClickListener {
             finish()
         }

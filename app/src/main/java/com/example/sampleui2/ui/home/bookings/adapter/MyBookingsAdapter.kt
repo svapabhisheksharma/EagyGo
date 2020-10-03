@@ -53,12 +53,12 @@ class MyBookingsAdapter(var list: List<BookingRequestModel>, val activity: Fragm
     }
 
     class Viewholder(itemView:View) : RecyclerView.ViewHolder(itemView) {
-        private val image: ImageView = itemView.findViewById(R.id.imagefrag14)
-        private val name : TextView = itemView.findViewById(R.id.namefrag14)
-        val button :Button = itemView.findViewById(R.id.buttonfrag14)
-        private  val status: TextView =itemView.findViewById(R.id.statusfrag14)
-        private val star : ImageView =itemView.findViewById(R.id.starfrag14)
-        private val statuscircle : ConstraintLayout = itemView.findViewById(R.id.statuscirclefrag14)
+        private val image: ImageView = itemView.findViewById(R.id.img_car)
+        private val name : TextView = itemView.findViewById(R.id.txt_name)
+        val button :Button = itemView.findViewById(R.id.btn_rate)
+        private  val status: TextView =itemView.findViewById(R.id.txt_status)
+        private val star : ImageView =itemView.findViewById(R.id.img_stars)
+        private val statuscircle : ConstraintLayout = itemView.findViewById(R.id.constraint_status)
         fun bindItems(resource:Int,name:String,status:Int) {
             image.setImageResource(resource)
             this.name.text = name

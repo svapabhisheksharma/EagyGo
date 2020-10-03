@@ -8,7 +8,7 @@
     tools:context=".ui.other.activity.CarPicture1">
 
     <ImageView
-        android:id="@+id/page41_back"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ic_backshade" />
 
     <TextView
-        android:id="@+id/page41_heading"
+        android:id="@+id/txt_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -28,7 +28,7 @@
         android:text="Name"
         android:textColor="#ffffff"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/page41_back"
+        app:layout_constraintStart_toEndOf="@+id/img_back"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -39,10 +39,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page41_back">
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvpage41"
+            android:id="@+id/recyclerview"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="21dp"
@@ -70,7 +70,7 @@
                 android:layout_height="match_parent">
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName"
+                    android:id="@+id/edtxt_message"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="18dp"
@@ -81,12 +81,12 @@
                     android:inputType="textPersonName"
                     android:textSize="14sp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/constraintLayout6"
+                    app:layout_constraintEnd_toStartOf="@+id/layoutbtn_send"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@+id/constraintLayout6"
+                    android:id="@+id/layoutbtn_send"
                     android:layout_width="34dp"
                     android:layout_height="34dp"
                     android:layout_marginTop="6dp"
@@ -98,7 +98,7 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <ImageView
-                        android:id="@+id/imageView67"
+                        android:id="@+id/img_send"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -112,13 +112,13 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
-        android:id="@+id/image_page41"
+        android:id="@+id/img_person"
         android:layout_width="36dp"
         android:layout_height="36dp"
         android:layout_marginEnd="24dp"
-        app:layout_constraintBottom_toBottomOf="@+id/page41_back"
+        app:layout_constraintBottom_toBottomOf="@+id/img_back"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/page41_back"
+        app:layout_constraintTop_toTopOf="@+id/img_back"
         app:srcCompat="@drawable/ic_abroad" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

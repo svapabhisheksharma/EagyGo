@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView56"
+        android:id="@+id/img_location"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:layout_marginStart="18dp"
@@ -19,21 +19,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView58"
+        android:id="@+id/img_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_goeagygo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView56" />
+        app:layout_constraintTop_toTopOf="@+id/img_location" />
 
     <ImageView
-        android:id="@+id/imageView59"
+        android:id="@+id/img_steering"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="18dp"
         android:src="@drawable/ic_steering_wheel"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView56"
+        app:layout_constraintBottom_toBottomOf="@+id/img_location"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -44,10 +44,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView56">
+        app:layout_constraintTop_toBottomOf="@+id/img_location">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvp49"
+            android:id="@+id/recyclerview"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"

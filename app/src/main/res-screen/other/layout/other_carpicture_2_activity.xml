@@ -8,7 +8,7 @@
     tools:context=".ui.other.activity.CarPicture2">
 
     <ImageView
-        android:id="@+id/page28_back"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ic_backshade" />
 
     <TextView
-        android:id="@+id/page28_heading"
+        android:id="@+id/tst_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
@@ -39,7 +39,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page28_back">
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
 
         <Button
             android:id="@+id/buttonP28"
@@ -61,7 +61,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
-            android:id="@+id/bigimage_page28"
+            android:id="@+id/img_car"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -75,15 +75,16 @@
             app:srcCompat="@drawable/maruti_baleno_petrol_ownership_review" />
 
         <ImageView
-            android:id="@+id/imageView49"
+            android:id="@+id/img_cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:translationZ="2dp"
-            app:layout_constraintEnd_toEndOf="@+id/bigimage_page28"
-            app:layout_constraintTop_toTopOf="@+id/bigimage_page28"
+            app:layout_constraintEnd_toEndOf="@+id/img_car"
+            app:layout_constraintTop_toTopOf="@+id/img_car"
             app:srcCompat="@drawable/ic_close_icon" />
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="18dp"
@@ -91,7 +92,7 @@
             app:layout_constraintBottom_toTopOf="@+id/buttonP28"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bigimage_page28" />
+            app:layout_constraintTop_toBottomOf="@+id/img_car" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

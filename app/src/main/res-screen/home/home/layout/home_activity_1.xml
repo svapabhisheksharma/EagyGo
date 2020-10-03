@@ -24,7 +24,7 @@
         app:menu="@menu/bottomnavmenu" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvlol"
+        android:id="@+id/recyclerview"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#ffffff"
@@ -44,20 +44,20 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/txt_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="52dp"
             android:text="EAGY"
             android:textColor="#ffffff"
             android:textSize="18sp"
-            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintEnd_toStartOf="@+id/img_setting"
             app:layout_constraintHorizontal_bias="0.568"
-            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toEndOf="@+id/img_location"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/txt_title_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
@@ -66,11 +66,11 @@
             android:textColor="#ffffff"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/textView7"
+            app:layout_constraintStart_toEndOf="@+id/txt_title"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/img_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -81,17 +81,17 @@
             app:tint="#ffffff" />
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/img_setting"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginTop="52dp"
             android:layout_marginEnd="16dp"
-            app:layout_constraintEnd_toStartOf="@+id/imageView7"
+            app:layout_constraintEnd_toStartOf="@+id/img_blank"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_baseline_settings_24" />
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/img_blank"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginTop="52dp"
@@ -107,7 +107,7 @@
             android:background="@drawable/top_curved"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView4">
+            app:layout_constraintTop_toBottomOf="@+id/img_setting">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView"
@@ -126,7 +126,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView11"
+                        android:id="@+id/img_innerlocation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
@@ -139,7 +139,7 @@
                         app:tint="@android:color/darker_gray" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName"
+                        android:id="@+id/edtxt_searchcar"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
@@ -150,7 +150,7 @@
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toEndOf="@+id/imageView11"
+                        app:layout_constraintStart_toEndOf="@+id/img_innerlocation"
                         app:layout_constraintTop_toTopOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
@@ -173,7 +173,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView13"
+                        android:id="@+id/img_calander"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
@@ -186,7 +186,7 @@
                         app:tint="#950C0C" />
 
                     <TextView
-                        android:id="@+id/textView9"
+                        android:id="@+id/txt_date"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="DP: 01 Jun, 10:11 am  AR: 06 Jun, 10:11 am"
@@ -195,13 +195,13 @@
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toEndOf="@+id/imageView13"
+                        app:layout_constraintStart_toEndOf="@+id/img_calander"
                         app:layout_constraintTop_toTopOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <View
-                android:id="@+id/divider3"
+                android:id="@+id/divider"
                 android:layout_width="0dp"
                 android:layout_height="1dp"
                 android:background="?android:attr/listDivider"

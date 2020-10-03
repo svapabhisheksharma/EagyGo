@@ -10,7 +10,7 @@ class DrivingLiscense : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.other_drivingliscense_activity)
 
-        var textfield : TextInputLayout = findViewById(R.id.TextLayoutPage54)
+        var textfield : TextInputLayout = findViewById(R.id.edtxt_drivingliscense)
 
         textfield.setEndIconOnClickListener {
             textfield.editText?.text = null

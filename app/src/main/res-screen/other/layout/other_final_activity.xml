@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView46"
+            android:id="@+id/img_check"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="38dp"
@@ -28,7 +28,7 @@
             app:srcCompat="@drawable/ic_congo" />
 
         <TextView
-            android:id="@+id/textView63"
+            android:id="@+id/txt_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="11dp"
@@ -39,10 +39,10 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView46" />
+            app:layout_constraintTop_toBottomOf="@+id/img_check" />
 
         <TextView
-            android:id="@+id/textView64"
+            android:id="@+id/txt_subtitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -54,10 +54,10 @@
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel lectus ac felis fermentum mattis. "
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView63" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_title" />
 
         <ImageView
-            android:id="@+id/imageView47"
+            android:id="@+id/img_car"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -66,11 +66,11 @@
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView64"
+            app:layout_constraintTop_toBottomOf="@+id/txt_subtitle"
             app:srcCompat="@drawable/maruti_baleno_petrol_ownership_review" />
 
         <TextView
-            android:id="@+id/textView65"
+            android:id="@+id/txt_carname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -81,10 +81,10 @@
             android:text="Maruti Suzuki Baleno"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView47" />
+            app:layout_constraintTop_toBottomOf="@+id/img_car" />
 
         <TextView
-            android:id="@+id/textView66"
+            android:id="@+id/txt_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="19dp"
@@ -96,10 +96,10 @@
             android:textStyle="bold"
             android:textAlignment="viewEnd"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView47" />
+            app:layout_constraintTop_toBottomOf="@+id/img_car" />
 
         <TextView
-            android:id="@+id/textView67"
+            android:id="@+id/txt_freekm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -109,10 +109,10 @@
             android:lineSpacingExtra="3sp"
             android:text="Free 100 KM per day"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView65" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_carname" />
 
         <TextView
-            android:id="@+id/textView68"
+            android:id="@+id/txt_perday"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -122,9 +122,9 @@
             android:lineSpacingExtra="3sp"
             android:text="per day"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView66" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_price" />
         <Button
-            android:id="@+id/buttonP31"
+            android:id="@+id/btn_back"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

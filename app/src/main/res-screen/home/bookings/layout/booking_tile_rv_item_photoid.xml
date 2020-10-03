@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <View
-        android:id="@+id/divider16"
+        android:id="@+id/divider"
         android:layout_width="0dp"
         android:layout_height="1dp"
         android:layout_marginStart="18dp"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView94"
+        android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -31,25 +31,25 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider16" />
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
 
     <ImageView
-        android:id="@+id/imageView64"
+        android:id="@+id/img_pancard_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView94"
-        app:layout_constraintEnd_toStartOf="@+id/imageView68"
-        app:layout_constraintTop_toTopOf="@+id/textView94"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_title"
+        app:layout_constraintEnd_toStartOf="@+id/img_pancard"
+        app:layout_constraintTop_toTopOf="@+id/txt_title"
         app:srcCompat="@drawable/fdsfgds_5_d_8_ca_81_f_51429" />
 
     <ImageView
-        android:id="@+id/imageView68"
+        android:id="@+id/img_pancard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="42dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView64"
+        app:layout_constraintBottom_toBottomOf="@+id/img_pancard_1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView64"
+        app:layout_constraintTop_toTopOf="@+id/img_pancard_1"
         app:srcCompat="@drawable/fdsfgds_5_d_8_ca_81_f_51429" />
 </androidx.constraintlayout.widget.ConstraintLayout>

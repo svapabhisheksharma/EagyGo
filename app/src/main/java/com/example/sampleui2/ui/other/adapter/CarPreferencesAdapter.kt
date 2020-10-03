@@ -45,8 +45,8 @@ class CarPreferencesAdapter(var list:List<CarPreferencesModel>): RecyclerView.Ad
     }
 
     class Viewholder0(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val subtitle: TextView = itemView.findViewById(R.id.Normalsubtitle)
-        private val title: TextView = itemView.findViewById(R.id.normaltitle)
+        private val subtitle: TextView = itemView.findViewById(R.id.txt_subtitle)
+        private val title: TextView = itemView.findViewById(R.id.txt_title)
         fun bindItems(title:String,subtitle:String) {
             this.title.text=title
             this.subtitle.text=subtitle
@@ -55,7 +55,7 @@ class CarPreferencesAdapter(var list:List<CarPreferencesModel>): RecyclerView.Ad
 
     class Viewholder1(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val switch: SwitchCompat = itemView.findViewById(R.id.switch1)
-         val title: TextView = itemView.findViewById(R.id.spinnertitle)
+         val title: TextView = itemView.findViewById(R.id.txt_title)
          val subtitle: TextView = itemView.findViewById(R.id.spinner_boolean)
         fun bindItems(title:String) {
             this.title.text = title

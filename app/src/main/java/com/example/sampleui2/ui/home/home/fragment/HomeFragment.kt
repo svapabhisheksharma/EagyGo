@@ -40,7 +40,7 @@ class Page8Fragment : Fragment() {
         // Inflate the layout for this fragment
         val view: View = inflater.inflate(R.layout.home_fragment_1, container, false)
 
-        val rv: RecyclerView = view.findViewById(R.id.rv)
+        val rv: RecyclerView = view.findViewById(R.id.recyclerview)
 
         rv.layoutManager = LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL,false)
         rv.adapter = HomeAdapter(6,activity,false)

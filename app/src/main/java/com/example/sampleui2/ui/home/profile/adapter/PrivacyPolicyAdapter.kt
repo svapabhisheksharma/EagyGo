@@ -10,8 +10,8 @@ import com.example.sampleui2.R
 
 class PrivacyPolicyAdapter(var listPrivacyPolicy:List<PrivacyPolicyModel>):RecyclerView.Adapter<PrivacyPolicyAdapter.viewholder>() {
     class viewholder(itemView:View) : RecyclerView.ViewHolder(itemView){
-        var tvheading : TextView = itemView.findViewById(R.id.RVItemHeading_page19)
-        var tvcontent : TextView = itemView.findViewById(R.id.RVItemContent_page19)
+        var tvheading : TextView = itemView.findViewById(R.id.txt_title)
+        var tvcontent : TextView = itemView.findViewById(R.id.txt_subtitle)
 
         fun bindItems(heading:String,content:String){
             tvheading.text = heading

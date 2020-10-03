@@ -31,7 +31,7 @@ class Chat : AppCompatActivity() {
                 ChatModel(0,"I'm not sure, but let me find","10:33")
         )
 
-        val rv :RecyclerView = findViewById(R.id.rvpage41)
+        val rv :RecyclerView = findViewById(R.id.recyclerview)
         rv.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false)
         rv.adapter = ChatAdapter(list)
         rv.addItemDecoration(RvDecorationLinear(
@@ -39,13 +39,13 @@ class Chat : AppCompatActivity() {
                 (resources.displayMetrics.density *7 ).roundToInt()
         ))
 
-        val heading :TextView = findViewById(R.id.page41_heading)
-        val image :ImageView = findViewById(R.id.image_page41)
+        val heading :TextView = findViewById(R.id.txt_name)
+        val image :ImageView = findViewById(R.id.img_person)
 
         heading.text = intent.extras?.getString("name")
         intent.extras?.getInt("resource")?.let { image.setImageResource(it) }
 
-        findViewById<ImageView>(R.id.page41_back).setOnClickListener { 
+        findViewById<ImageView>(R.id.img_back).setOnClickListener {
             finish()
         }
 

@@ -8,7 +8,7 @@
     tools:context=".ui.login.activity.LogInEmail">
 
     <ImageView
-        android:id="@+id/page5_back"
+        android:id="@+id/btn_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ic_backshade" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -28,11 +28,11 @@
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page5_back"
+        app:layout_constraintTop_toBottomOf="@+id/btn_back"
         android:text="Login" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/txt_subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -42,7 +42,7 @@
         android:textColor="#B0CFE8"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_title" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
@@ -52,10 +52,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18">
+        app:layout_constraintTop_toBottomOf="@+id/txt_subtitle">
 
         <TextView
-            android:id="@+id/textView19"
+            android:id="@+id/txt_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -68,14 +68,14 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/email_page5_textinput"
+            android:id="@+id/edtxt_email"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
             android:layout_marginEnd="18dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView19">
+            app:layout_constraintTop_toBottomOf="@+id/txt_email">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -86,7 +86,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
-            android:id="@+id/textView20"
+            android:id="@+id/txt_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -96,16 +96,16 @@
             android:textColor="#4f5962"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/email_page5_textinput" />
+            app:layout_constraintTop_toBottomOf="@+id/edtxt_email" />
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/password_page5_textinput"
+            android:id="@+id/edtxt_password"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
             android:layout_marginEnd="18dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView20"
+            app:layout_constraintTop_toBottomOf="@+id/txt_password"
             app:endIconMode="password_toggle">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -117,7 +117,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
-            android:id="@+id/textView21"
+            android:id="@+id/txt_forgot"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -127,11 +127,11 @@
             android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/password_page5_textinput"
+            app:layout_constraintTop_toBottomOf="@+id/edtxt_password"
             tools:text="Forgot Password?" />
 
         <Button
-            android:id="@+id/buttonP5"
+            android:id="@+id/btn_login"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -149,7 +149,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
-            android:id="@+id/spannabletext"
+            android:id="@+id/txt_signup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="2sp"
@@ -158,7 +158,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttonP5"
+            app:layout_constraintTop_toBottomOf="@+id/btn_login"
             android:text="No Account Yet?  Sign Up" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

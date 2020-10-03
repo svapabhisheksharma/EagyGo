@@ -8,7 +8,7 @@
     tools:context=".ui.other.activity.CarInsurance">
 
     <ImageView
-        android:id="@+id/page26_back"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ic_backshade" />
 
     <TextView
-        android:id="@+id/page26_heading"
+        android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
@@ -39,7 +39,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page26_back">
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
 
         <Button
             android:id="@+id/buttonP26"
@@ -59,7 +59,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView45"
+            android:id="@+id/img_topimage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="11dp"
@@ -69,7 +69,7 @@
             app:srcCompat="@drawable/freepressjournal_2019_10_f_8_b_8_a_2_f_6_2_c_7_c_4_e_45_941_f_f_07_bd_7_eca_6_e_4_icici_lombard" />
 
         <TextView
-            android:id="@+id/textView57"
+            android:id="@+id/txt_text_1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -82,10 +82,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView45" />
+            app:layout_constraintTop_toBottomOf="@+id/img_topimage" />
 
         <TextView
-            android:id="@+id/textView58"
+            android:id="@+id/txt_text_2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -96,11 +96,11 @@
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView57"
+            app:layout_constraintTop_toBottomOf="@+id/txt_text_1"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel lectus ac felis fermentum " />
 
         <TextView
-            android:id="@+id/textView59"
+            android:id="@+id/txt_text_3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -112,7 +112,7 @@
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView58" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_text_2" />
 
         <CheckBox
             android:id="@+id/checkBox"
@@ -125,7 +125,7 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView59" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_text_3" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

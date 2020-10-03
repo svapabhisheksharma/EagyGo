@@ -11,7 +11,7 @@ class FinalPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.other_final_activity)
-        findViewById<Button>(R.id.buttonP31).setOnClickListener {
+        findViewById<Button>(R.id.btn_back).setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
         }
     }

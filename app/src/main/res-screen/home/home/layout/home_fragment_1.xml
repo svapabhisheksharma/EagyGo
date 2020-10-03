@@ -7,7 +7,7 @@
     android:background="#2680eb ">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img_location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -18,20 +18,20 @@
         app:tint="#ffffff" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/img_setting"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginEnd="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintBottom_toBottomOf="@+id/img_location"
+        app:layout_constraintEnd_toStartOf="@+id/img_blank"
         app:srcCompat="@drawable/ic_setup" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/img_blank"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginEnd="18dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/img_location"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_steering_wheel" />
 
@@ -43,7 +43,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView">
+        app:layout_constraintTop_toBottomOf="@+id/img_location">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
@@ -62,7 +62,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/imageView11"
+                    android:id="@+id/img_innerlocation"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="12dp"
@@ -75,7 +75,7 @@
                     app:tint="@android:color/darker_gray" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName"
+                    android:id="@+id/edtxt_searchcar"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="12dp"
@@ -86,7 +86,7 @@
                     android:textSize="14sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageView11"
+                    app:layout_constraintStart_toEndOf="@+id/img_innerlocation"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
@@ -108,7 +108,7 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/imageView13"
+                    android:id="@+id/img_calander"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="12dp"
@@ -120,7 +120,7 @@
                     app:srcCompat="@drawable/ic_calendar" />
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/txt_date"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="DP: 01 Jun, 10:11 am  AR: 06 Jun, 10:11 am"
@@ -129,13 +129,13 @@
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageView13"
+                    app:layout_constraintStart_toEndOf="@+id/img_calander"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv"
+            android:id="@+id/recyclerview"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="27dp"
@@ -148,11 +148,11 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
-        android:id="@+id/imageView60"
+        android:id="@+id/img_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/img_location"
         app:srcCompat="@drawable/ic_goeagygo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

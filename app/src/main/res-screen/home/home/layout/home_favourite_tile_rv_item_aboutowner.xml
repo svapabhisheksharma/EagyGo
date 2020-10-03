@@ -7,7 +7,7 @@
     android:background="@android:color/transparent">
 
     <TextView
-        android:id="@+id/textView45"
+        android:id="@+id/txt_abouttitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -21,18 +21,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView28"
+        android:id="@+id/img_person"
         android:layout_width="78dp"
         android:layout_height="98dp"
         android:layout_marginStart="18dp"
         android:layout_marginTop="13dp"
         android:scaleType="center"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        app:layout_constraintTop_toBottomOf="@+id/txt_abouttitle"
         app:srcCompat="@drawable/images" />
 
     <TextView
-        android:id="@+id/textView46"
+        android:id="@+id/txt_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -42,61 +42,61 @@
         android:textColor="#4f5962"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView28"
-        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+        app:layout_constraintStart_toEndOf="@+id/img_person"
+        app:layout_constraintTop_toBottomOf="@+id/txt_abouttitle" />
 
     <ImageView
-        android:id="@+id/imageView29"
+        android:id="@+id/img_star_5"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginStart="2dp"
         android:layout_marginTop="7.5dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView30"
-        app:layout_constraintTop_toBottomOf="@+id/textView46"
+        app:layout_constraintStart_toEndOf="@+id/img_star_2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name"
         app:srcCompat="@drawable/ic_star_filled" />
 
     <ImageView
-        android:id="@+id/imageView36"
+        android:id="@+id/img_star_1"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="7.5dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView28"
-        app:layout_constraintTop_toBottomOf="@+id/textView46"
+        app:layout_constraintStart_toEndOf="@+id/img_person"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name"
         app:srcCompat="@drawable/ic_star_filled" />
 
     <ImageView
-        android:id="@+id/imageView30"
+        android:id="@+id/img_star_2"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginStart="2dp"
         android:layout_marginTop="7.5dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView36"
-        app:layout_constraintTop_toBottomOf="@+id/textView46"
+        app:layout_constraintStart_toEndOf="@+id/img_star_1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name"
         app:srcCompat="@drawable/ic_star_filled" />
 
     <ImageView
-        android:id="@+id/imageView33"
+        android:id="@+id/img_star_3"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginStart="2dp"
         android:layout_marginTop="7.5dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView29"
-        app:layout_constraintTop_toBottomOf="@+id/textView46"
+        app:layout_constraintStart_toEndOf="@+id/img_star_5"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name"
         app:srcCompat="@drawable/ic_star_filled" />
 
     <ImageView
-        android:id="@+id/imageView37"
+        android:id="@+id/img_star_4"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginStart="2dp"
         android:layout_marginTop="7.5dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView33"
-        app:layout_constraintTop_toBottomOf="@+id/textView46"
+        app:layout_constraintStart_toEndOf="@+id/img_star_3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name"
         app:srcCompat="@drawable/ic_star_3_unfilled" />
 
     <TextView
-        android:id="@+id/textView47"
+        android:id="@+id/txt_noofreviews"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
@@ -105,6 +105,6 @@
         android:text="(50)"
         android:textColor="#4f5962"
         android:textSize="12sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView37"
-        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+        app:layout_constraintStart_toEndOf="@+id/img_star_4"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name" />
 </androidx.constraintlayout.widget.ConstraintLayout>

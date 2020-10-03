@@ -8,7 +8,7 @@
     tools:context=".ui.other.activity.Reviews">
 
     <ImageView
-        android:id="@+id/page32_back"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ic_backshade" />
 
     <TextView
-        android:id="@+id/page32_heading"
+        android:id="@+id/img_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
@@ -39,10 +39,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page32_back">
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvpage32"
+            android:id="@+id/recyclerview"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="12dp"

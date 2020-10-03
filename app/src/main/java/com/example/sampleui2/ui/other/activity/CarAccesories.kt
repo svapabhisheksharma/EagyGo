@@ -17,7 +17,7 @@ class CarAccesories : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.other_caraccesories_activity)
 
-        val rv: RecyclerView = findViewById(R.id.rv_page23)
+        val rv: RecyclerView = findViewById(R.id.recyclerview)
 
         rv.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false)
         rv.adapter = CarAccesoriesAdapter(6)
@@ -26,11 +26,11 @@ class CarAccesories : AppCompatActivity() {
                 (resources.displayMetrics.density * 18).roundToInt(),
                 (resources.displayMetrics.density * 18).roundToInt()
         ))
-        findViewById<ImageView>(R.id.page23_back).setOnClickListener {
+        findViewById<ImageView>(R.id.img_back).setOnClickListener {
             finish()
         }
 
-        findViewById<Button>(R.id.buttonP23).setOnClickListener {
+        findViewById<Button>(R.id.btn_continue).setOnClickListener {
             startActivity(Intent(this, CarDetails::class.java))
         }
     }

@@ -40,7 +40,7 @@ class Page15Fragment : Fragment() {
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
         val v = inflater.inflate(R.layout.profile_fragment, container, false)
-        val editButton = v.findViewById<Button>(R.id.editbuttonP15)
+        val editButton = v.findViewById<Button>(R.id.btn_edit)
         val settings = v.findViewById<ConstraintLayout>(R.id.constraintlayoutsettings)
         editButton.setOnClickListener {
             Log.d("Edit Clicked","True")

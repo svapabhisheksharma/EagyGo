@@ -23,7 +23,7 @@ class CarDetailsAdapter(var totalCards:Int): RecyclerView.Adapter<RecyclerView.V
     }
 
     class Viewholder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val image: ImageView = itemView.findViewById(R.id.lockp24)
+        private val image: ImageView = itemView.findViewById(R.id.img_lock)
         fun bindItems(position: Int) {
             if (position==0)
                 image.visibility = View.VISIBLE

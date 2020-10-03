@@ -10,7 +10,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView61"
+        android:id="@+id/img_location"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:layout_marginStart="18dp"
@@ -20,16 +20,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView62"
+        android:id="@+id/img_steering"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginEnd="18dp"
         android:src="@drawable/ic_steering_wheel"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView61"
+        app:layout_constraintBottom_toBottomOf="@+id/img_location"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        android:id="@+id/textView73"
+        android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
@@ -40,7 +40,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView61" />
+        app:layout_constraintTop_toTopOf="@+id/img_location" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
@@ -50,10 +50,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView61">
+        app:layout_constraintTop_toBottomOf="@+id/img_location">
 
         <TextView
-            android:id="@+id/textView76"
+            android:id="@+id/txt_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -63,10 +63,10 @@
             android:textColor="#4f5962"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/divider10" />
+            app:layout_constraintTop_toBottomOf="@+id/divider" />
 
         <ImageView
-            android:id="@+id/imageView65"
+            android:id="@+id/img_person"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginStart="18dp"
@@ -76,7 +76,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/editbuttonP15"
+            android:id="@+id/btn_edit"
             android:layout_width="80dp"
             android:layout_height="34dp"
             android:layout_marginTop="68dp"
@@ -91,7 +91,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView74"
+            android:id="@+id/txt_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -101,10 +101,10 @@
             android:textColor="#4f5962"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView65" />
+            app:layout_constraintTop_toBottomOf="@+id/img_person" />
 
         <TextView
-            android:id="@+id/textView78"
+            android:id="@+id/txt_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -114,10 +114,10 @@
             android:textColor="#4f5962"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/divider11" />
+            app:layout_constraintTop_toBottomOf="@+id/divider_1" />
 
         <TextView
-            android:id="@+id/textView75"
+            android:id="@+id/txt_namefield"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -128,10 +128,10 @@
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView74" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_name" />
 
         <TextView
-            android:id="@+id/textView79"
+            android:id="@+id/txt_passwordfield"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -142,10 +142,10 @@
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView78" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_password" />
 
         <TextView
-            android:id="@+id/textView77"
+            android:id="@+id/txt_emailfield"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -156,10 +156,10 @@
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView76" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_email" />
 
         <View
-            android:id="@+id/divider10"
+            android:id="@+id/divider"
             android:layout_width="0dp"
             android:layout_height="1dp"
             android:layout_marginStart="18dp"
@@ -168,10 +168,10 @@
             android:background="?android:attr/listDivider"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView75" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_namefield" />
 
         <View
-            android:id="@+id/divider12"
+            android:id="@+id/divider_2"
             android:layout_width="0dp"
             android:layout_height="1dp"
             android:layout_marginStart="18dp"
@@ -181,10 +181,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView79" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_passwordfield" />
 
         <View
-            android:id="@+id/divider11"
+            android:id="@+id/divider_1"
             android:layout_width="0dp"
             android:layout_height="1dp"
             android:layout_marginStart="18dp"
@@ -194,7 +194,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView77" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_emailfield" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintlayoutsettings"
@@ -204,10 +204,10 @@
             android:background="#ffffff"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/divider12">
+            app:layout_constraintTop_toBottomOf="@+id/divider_2">
 
             <TextView
-                android:id="@+id/textView80"
+                android:id="@+id/txt_settings"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -223,7 +223,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView66"
+                android:id="@+id/txt_forward"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="33dp"
@@ -234,7 +234,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
-            android:id="@+id/textView81"
+            android:id="@+id/txt_changepassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="18dp"
@@ -243,6 +243,6 @@
             android:textColor="#a4a9ae"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView79" />
+            app:layout_constraintTop_toTopOf="@+id/txt_passwordfield" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

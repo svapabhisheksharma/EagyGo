@@ -44,7 +44,7 @@ class Page14Fragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?){
 
-        val rv = view.findViewById<RecyclerView>(R.id.rvfrag14)
+        val rv = view.findViewById<RecyclerView>(R.id.recyclerview)
         val list = listOf<BookingRequestModel>(
                 BookingRequestModel("Mini Cooper",R.drawable.mini_png_11772,0),
                 BookingRequestModel("Fortuner",R.drawable.toyota_fortuner_png_8,1),

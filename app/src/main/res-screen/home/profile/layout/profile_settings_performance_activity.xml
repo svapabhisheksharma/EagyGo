@@ -16,10 +16,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page20_back">
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_page20"
+            android:id="@+id/recyclerview"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -29,7 +29,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
-        android:id="@+id/page20_back"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -39,14 +39,14 @@
         app:srcCompat="@drawable/ic_backshade" />
 
     <TextView
-        android:id="@+id/page20_heading"
+        android:id="@+id/img_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Performance"
         android:textColor="#ffffff"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/page20_back"
+        app:layout_constraintBottom_toBottomOf="@+id/img_back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/page19_back" />
+        app:layout_constraintTop_toTopOf="@+id/img_back" />
 </androidx.constraintlayout.widget.ConstraintLayout>

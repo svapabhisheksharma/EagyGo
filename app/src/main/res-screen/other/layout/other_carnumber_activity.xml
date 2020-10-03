@@ -8,7 +8,7 @@
     tools:context=".ui.other.activity.CarNumber">
 
     <ImageView
-        android:id="@+id/page21_back"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ic_backshade" />
 
     <TextView
-        android:id="@+id/page21_heading"
+        android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
@@ -39,7 +39,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page21_back">
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
 
         <Button
             android:id="@+id/buttonP21"
@@ -59,7 +59,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
-            android:id="@+id/textView27"
+            android:id="@+id/txt_liscense"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -72,7 +72,7 @@
             android:text="Driving Licence Number" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/edtxt_liscense"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -88,10 +88,10 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_liscense" />
 
         <TextView
-            android:id="@+id/textView28"
+            android:id="@+id/txt_carnumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -101,10 +101,10 @@
             android:textColor="#4f5962"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+            app:layout_constraintTop_toBottomOf="@+id/edtxt_liscense" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/edtxt_carnumber"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -120,6 +120,6 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_carnumber" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

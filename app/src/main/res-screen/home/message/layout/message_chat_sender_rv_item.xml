@@ -7,7 +7,7 @@
     android:background="@android:color/transparent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout7"
+        android:id="@+id/constraintLayout"
         android:layout_width="245dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/sent_text"
+            android:id="@+id/txt_sent"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -35,7 +35,7 @@ for calling Provide."
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
-        android:id="@+id/sent_time"
+        android:id="@+id/txt_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -44,6 +44,6 @@ for calling Provide."
         android:text="10:30"
         android:textColor="#c8cbce"
         android:textSize="11sp"
-        app:layout_constraintEnd_toEndOf="@+id/constraintLayout7"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout7" />
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 </androidx.constraintlayout.widget.ConstraintLayout>

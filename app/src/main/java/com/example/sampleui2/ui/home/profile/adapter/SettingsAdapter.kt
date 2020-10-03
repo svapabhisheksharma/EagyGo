@@ -12,8 +12,8 @@ import com.example.sampleui2.R
 class SettingsAdapter(val list: List<SettingsModel>, val itemClickHandler:(Int)->Unit) : RecyclerView.Adapter<SettingsAdapter.ViewHolder>() {
     class ViewHolder(itemView:View) : RecyclerView.ViewHolder(itemView) {
 
-        private val img : ImageView = itemView.findViewById(R.id.imgp18)
-        private val title : TextView = itemView.findViewById(R.id.titlep18)
+        private val img : ImageView = itemView.findViewById(R.id.img_title)
+        private val title : TextView = itemView.findViewById(R.id.txt_title)
         fun bindItems(resoucevalue : Int , titlevalue:String){
             img.setImageResource(resoucevalue)
             title.text =titlevalue

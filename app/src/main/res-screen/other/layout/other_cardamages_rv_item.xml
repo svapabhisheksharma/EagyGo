@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/page50_image"
+        android:id="@+id/img_car"
         android:layout_width="160dp"
         android:layout_height="160dp"
         app:layout_constraintBottom_toBottomOf="parent"

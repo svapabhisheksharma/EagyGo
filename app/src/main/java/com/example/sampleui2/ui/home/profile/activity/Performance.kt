@@ -23,11 +23,11 @@ class Performance : AppCompatActivity() {
                 PerformanceModel(1),
         )
 
-        val rv :RecyclerView = findViewById(R.id.rv_page20)
+        val rv :RecyclerView = findViewById(R.id.recyclerview)
         rv.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
         rv.adapter = PerformanceAdapter(list)
 
-        findViewById<ImageView>(R.id.page20_back).setOnClickListener {
+        findViewById<ImageView>(R.id.img_back).setOnClickListener {
             finish()
         }
 

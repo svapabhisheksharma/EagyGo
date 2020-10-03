@@ -8,22 +8,22 @@
 
 
     <ImageView
-        android:id="@+id/imageView23"
+        android:id="@+id/img_star_1"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginTop="23.6dp"
         android:layout_marginEnd="2dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView20"
+        app:layout_constraintEnd_toStartOf="@+id/img_star_2"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_star_filled" />
 
     <ImageView
-        android:id="@+id/imageView21"
+        android:id="@+id/img_star_4"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginTop="23.6dp"
         android:layout_marginEnd="2dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView24"
+        app:layout_constraintEnd_toStartOf="@+id/img_star_5"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_star_filled" />
 
@@ -42,37 +42,37 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView20"
+        android:id="@+id/img_star_2"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginTop="23.6dp"
         android:layout_marginEnd="2dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView22"
+        app:layout_constraintEnd_toStartOf="@+id/img_star_3"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_star_filled" />
 
     <ImageView
-        android:id="@+id/imageView22"
+        android:id="@+id/img_star_3"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginTop="23.6dp"
         android:layout_marginEnd="2dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView21"
+        app:layout_constraintEnd_toStartOf="@+id/img_star_4"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_star_filled" />
 
     <ImageView
-        android:id="@+id/imageView24"
+        android:id="@+id/img_star_5"
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_marginTop="23.6dp"
         android:layout_marginEnd="5dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView38"
+        app:layout_constraintEnd_toStartOf="@+id/txt_noofreviews"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_star_3_unfilled" />
 
     <TextView
-        android:id="@+id/textView38"
+        android:id="@+id/txt_noofreviews"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
@@ -85,7 +85,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView25"
+        android:id="@+id/img_petrol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
@@ -95,17 +95,17 @@
         app:srcCompat="@drawable/ic_petrol" />
 
     <ImageView
-        android:id="@+id/imageView26"
+        android:id="@+id/img_road"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView27"
-        app:layout_constraintStart_toEndOf="@+id/imageView25"
+        app:layout_constraintEnd_toStartOf="@+id/img_gear"
+        app:layout_constraintStart_toEndOf="@+id/img_petrol"
         app:layout_constraintTop_toBottomOf="@+id/textView37"
         app:srcCompat="@drawable/ic_highway" />
 
     <ImageView
-        android:id="@+id/imageView27"
+        android:id="@+id/img_gear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
@@ -115,7 +115,7 @@
         app:srcCompat="@drawable/ic_gear" />
 
     <TextView
-        android:id="@+id/textView39"
+        android:id="@+id/txt_petrol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="46dp"
@@ -126,10 +126,10 @@
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView25" />
+        app:layout_constraintTop_toBottomOf="@+id/img_petrol" />
 
     <TextView
-        android:id="@+id/textView40"
+        android:id="@+id/txt_road"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
@@ -138,12 +138,12 @@
         android:textColor="#2680eb"
         android:textSize="14sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/imageView26"
-        app:layout_constraintStart_toStartOf="@+id/imageView26"
-        app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+        app:layout_constraintEnd_toEndOf="@+id/img_road"
+        app:layout_constraintStart_toStartOf="@+id/img_road"
+        app:layout_constraintTop_toBottomOf="@+id/img_road" />
 
     <TextView
-        android:id="@+id/textView41"
+        android:id="@+id/txt_gear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
@@ -154,10 +154,10 @@
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView27" />
+        app:layout_constraintTop_toBottomOf="@+id/img_gear" />
 
     <TextView
-        android:id="@+id/textView42"
+        android:id="@+id/txt_about"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -168,10 +168,10 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_petrol" />
 
     <TextView
-        android:id="@+id/textView43"
+        android:id="@+id/tst_abouttext"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -183,17 +183,17 @@
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_about" />
 
     <View
-        android:id="@+id/divider6"
+        android:id="@+id/divider"
         android:layout_width="0dp"
         android:layout_height="1dp"
         android:layout_marginTop="8.5dp"
         android:background="@android:drawable/divider_horizontal_bright"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+        app:layout_constraintTop_toBottomOf="@+id/tst_abouttext" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

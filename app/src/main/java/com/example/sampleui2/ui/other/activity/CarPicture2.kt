@@ -11,7 +11,7 @@ class CarPicture2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.other_carpicture_2_activity)
-        findViewById<ImageView>(R.id.page28_back).setOnClickListener {
+        findViewById<ImageView>(R.id.img_back).setOnClickListener {
             finish()
         }
         findViewById<Button>(R.id.buttonP28).setOnClickListener {

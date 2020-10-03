@@ -8,7 +8,7 @@
     tools:context=".ui.other.activity.StartTrip">
 
     <ImageView
-        android:id="@+id/page52_back"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -25,10 +25,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page52_back">
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
 
         <TextView
-            android:id="@+id/textPage52"
+            android:id="@+id/txt_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -44,7 +44,7 @@
 
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/txt_subtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -53,21 +53,21 @@
             android:textColor="#4f5962"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textPage52"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title"
             tools:text="Tap on car icon and click next" />
 
         <ImageView
-            android:id="@+id/imageView16"
+            android:id="@+id/img_key"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="57dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/txt_subtitle"
             app:srcCompat="@drawable/ic_car_5" />
 
         <Button
-            android:id="@+id/buttonPage52"
+            android:id="@+id/btn_next"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -83,7 +83,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+            app:layout_constraintTop_toBottomOf="@+id/img_key" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

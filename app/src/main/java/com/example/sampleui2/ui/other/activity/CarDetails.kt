@@ -16,7 +16,7 @@ class CarDetails : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.other_cardetails_activity)
-        val rv: RecyclerView = findViewById(R.id.rv_page24)
+        val rv: RecyclerView = findViewById(R.id.recyclerview)
 
         rv.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false)
         rv.adapter = CarDetailsAdapter(6)
@@ -25,10 +25,10 @@ class CarDetails : AppCompatActivity() {
                 (resources.displayMetrics.density * 18).roundToInt(),
                 (resources.displayMetrics.density * 18).roundToInt()
         ))
-        findViewById<ImageView>(R.id.page24_back).setOnClickListener {
+        findViewById<ImageView>(R.id.img_back).setOnClickListener {
             finish()
         }
-        findViewById<Button>(R.id.buttonP24).setOnClickListener {
+        findViewById<Button>(R.id.btn_continue).setOnClickListener {
             startActivity(Intent(this, CarFreeKM::class.java))
         }
     }

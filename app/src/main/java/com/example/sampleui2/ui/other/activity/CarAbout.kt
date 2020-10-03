@@ -11,10 +11,10 @@ class CarAbout : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.other_carabout_activity)
-        findViewById<ImageView>(R.id.page22_back).setOnClickListener {
+        findViewById<ImageView>(R.id.img_back).setOnClickListener {
             finish()
         }
-        findViewById<Button>(R.id.buttonP22).setOnClickListener {
+        findViewById<Button>(R.id.btn_continue).setOnClickListener {
             startActivity(Intent(this, CarAccesories::class.java))
         }
     }

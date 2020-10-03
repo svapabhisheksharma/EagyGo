@@ -36,9 +36,9 @@ class HomeAdapter(var totalCards:Int, val  activity:FragmentActivity?, val isfav
     }
 
     class Viewholder(itemView:View) : RecyclerView.ViewHolder(itemView) {
-        private val image: ImageView = itemView.findViewById(R.id.imageView2)
+        private val image: ImageView = itemView.findViewById(R.id.img_car)
         fun bindItems(isfav:Boolean,position:Int) {
-            val star:ImageView = itemView.findViewById(R.id.fav)
+            val star:ImageView = itemView.findViewById(R.id.img_starfav)
             if(isfav)   star.visibility = View.VISIBLE
 
             if (position%2==0)

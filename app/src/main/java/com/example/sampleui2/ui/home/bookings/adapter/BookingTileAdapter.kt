@@ -53,9 +53,9 @@ class BookingTileAdapter(val list:List<BookingTileModel>, val pageType:Int):Recy
         }
     }
     class VHText(view: View):RecyclerView.ViewHolder(view){
-        private val textleft:TextView=view.findViewById(R.id.lefttext)
-        private val textright:TextView=view.findViewById(R.id.righttext)
-        private val textmiddle:TextView=view.findViewById(R.id.middletext)
+        private val textleft:TextView=view.findViewById(R.id.txt_left)
+        private val textright:TextView=view.findViewById(R.id.txt_right)
+        private val textmiddle:TextView=view.findViewById(R.id.txt_middle)
         fun bindItems(pagetype:Int){
             when(pagetype){
                 0->{

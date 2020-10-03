@@ -38,8 +38,8 @@ class ChatAdapter(val list: List<ChatModel>) : RecyclerView.Adapter<RecyclerView
     }
 
     class sentVH(itemView: View):RecyclerView.ViewHolder(itemView){
-        private val text:TextView = itemView.findViewById(R.id.sent_text)
-        private val time:TextView = itemView.findViewById(R.id.sent_time)
+        private val text:TextView = itemView.findViewById(R.id.txt_sent)
+        private val time:TextView = itemView.findViewById(R.id.txt_time)
         fun bindItems(text:String,time:String){
             this.text.text=text
             this.time.text=time
@@ -47,8 +47,8 @@ class ChatAdapter(val list: List<ChatModel>) : RecyclerView.Adapter<RecyclerView
     }
 
     class recievedVH(itemView: View):RecyclerView.ViewHolder(itemView){
-        private val text:TextView = itemView.findViewById(R.id.recieved_text)
-        private val time:TextView = itemView.findViewById(R.id.recieved_time)
+        private val text:TextView = itemView.findViewById(R.id.txt_recieved)
+        private val time:TextView = itemView.findViewById(R.id.txt_time)
         fun bindItems(text:String,time:String){
             this.text.text=text
             this.time.text=time

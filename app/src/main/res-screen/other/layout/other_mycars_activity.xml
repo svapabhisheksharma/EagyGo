@@ -8,7 +8,7 @@
     tools:context=".ui.other.activity.MyCars">
 
     <ImageView
-        android:id="@+id/page48_back"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ic_backshade" />
 
     <TextView
-        android:id="@+id/page48_heading"
+        android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
@@ -27,12 +27,12 @@
         android:text="My Cars"
         android:textColor="#ffffff"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/page48_icon"
-        app:layout_constraintStart_toEndOf="@+id/page48_back"
+        app:layout_constraintEnd_toStartOf="@+id/img_up"
+        app:layout_constraintStart_toEndOf="@+id/img_back"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/page48_icon"
+        android:id="@+id/img_up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="49.9dp"
@@ -49,10 +49,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page48_back">
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/page48_rv"
+            android:id="@+id/recyclerview"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"

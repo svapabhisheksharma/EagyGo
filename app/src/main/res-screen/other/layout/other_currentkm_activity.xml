@@ -8,7 +8,7 @@
     tools:context=".ui.other.activity.CurrentKM">
 
     <ImageView
-        android:id="@+id/page53_back"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -25,10 +25,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page53_back">
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
 
         <TextView
-            android:id="@+id/textPage53"
+            android:id="@+id/txt_currentkm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -41,7 +41,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout"
+            android:id="@+id/textInputLayout_carfreekm"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -51,10 +51,10 @@
             app:endIconTint="#ff1414"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textPage53">
+            app:layout_constraintTop_toBottomOf="@+id/txt_currentkm">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/TextLayoutPage53"
+                android:id="@+id/edtxt_currentkm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
@@ -62,7 +62,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/buttonPage53"
+            android:id="@+id/btn_next"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout_carfreekm" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

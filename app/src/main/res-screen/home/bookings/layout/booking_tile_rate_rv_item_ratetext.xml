@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <TextView
-        android:id="@+id/textView101"
+        android:id="@+id/txt_ownerrating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -17,10 +17,10 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider21" />
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
 
     <TextView
-        android:id="@+id/textView99"
+        android:id="@+id/txt_carrating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -34,27 +34,27 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView71"
+        android:id="@+id/img_stars"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="18dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView99"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_carrating"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView99"
+        app:layout_constraintTop_toTopOf="@+id/txt_carrating"
         app:srcCompat="@drawable/ic_5star" />
 
     <ImageView
-        android:id="@+id/imageView72"
+        android:id="@+id/img_stars_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="18dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView101"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_ownerrating"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView101"
+        app:layout_constraintTop_toTopOf="@+id/txt_ownerrating"
         app:srcCompat="@drawable/ic_5star" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/edtxt_carrating"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -72,10 +72,10 @@
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView99" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_carrating" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/edtxt_ownerrating"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -96,10 +96,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView101" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_ownerrating" />
 
     <View
-        android:id="@+id/divider21"
+        android:id="@+id/divider"
         android:layout_width="0dp"
         android:layout_height="1dp"
         android:layout_marginStart="18dp"
@@ -108,6 +108,6 @@
         android:background="?android:attr/listDivider"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+        app:layout_constraintTop_toBottomOf="@+id/edtxt_carrating" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

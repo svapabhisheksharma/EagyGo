@@ -18,47 +18,47 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/img_star_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="1dp"
-            app:layout_constraintEnd_toStartOf="@+id/imageView6"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toStartOf="@+id/img_star_3"
+            app:layout_constraintTop_toBottomOf="@+id/img_car"
             app:srcCompat="@drawable/ic_star_filled" />
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/img_star_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="1dp"
-            app:layout_constraintEnd_toStartOf="@+id/imageView9"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toStartOf="@+id/img_star_4"
+            app:layout_constraintTop_toBottomOf="@+id/img_car"
             app:srcCompat="@drawable/ic_star_filled" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/img_star_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="1dp"
-            app:layout_constraintEnd_toStartOf="@+id/imageView5"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toStartOf="@+id/img_star_2"
+            app:layout_constraintTop_toBottomOf="@+id/img_car"
             app:srcCompat="@drawable/ic_star_filled" />
 
         <ImageView
-            android:id="@+id/imageView9"
+            android:id="@+id/img_star_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="1dp"
-            app:layout_constraintEnd_toStartOf="@+id/imageView10"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toStartOf="@+id/img_star_5"
+            app:layout_constraintTop_toBottomOf="@+id/img_car"
             app:srcCompat="@drawable/ic_star_filled" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/img_car"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -71,7 +71,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/txt_carnam"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -80,20 +80,20 @@
             android:textColor="#000000"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            app:layout_constraintTop_toBottomOf="@+id/img_car" />
 
         <ImageView
-            android:id="@+id/imageView10"
+            android:id="@+id/img_star_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/textView2"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toStartOf="@+id/txt_noofreviews"
+            app:layout_constraintTop_toBottomOf="@+id/img_car"
             app:srcCompat="@drawable/ic_star_3_unfilled" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txt_noofreviews"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -102,10 +102,10 @@
             android:textColor="#000000"
             android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            app:layout_constraintTop_toBottomOf="@+id/img_car" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txt_year"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -116,10 +116,10 @@
             android:textColor="#ffffff"
             android:textSize="10sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_carnam" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/txt_freekm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -129,11 +129,11 @@
             android:text="Free 100km/day"
             android:textColor="#ffffff"
             android:textSize="10sp"
-            app:layout_constraintStart_toEndOf="@+id/textView3"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintStart_toEndOf="@+id/txt_year"
+            app:layout_constraintTop_toBottomOf="@+id/txt_carnam" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/txt_number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -143,11 +143,11 @@
             android:text="485 M"
             android:textColor="#ffffff"
             android:textSize="10sp"
-            app:layout_constraintStart_toEndOf="@+id/textView4"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintStart_toEndOf="@+id/txt_freekm"
+            app:layout_constraintTop_toBottomOf="@+id/txt_carnam" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/txt_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -159,11 +159,11 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/txt_year"
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
-            android:id="@+id/fav"
+            android:id="@+id/img_starfav"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"

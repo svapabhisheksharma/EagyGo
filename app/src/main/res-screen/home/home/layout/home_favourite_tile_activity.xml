@@ -8,7 +8,7 @@
     tools:context=".ui.home.home.activity.HomeTile">
 
     <ImageView
-        android:id="@+id/page11back"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ic_backshade" />
 
     <TextView
-        android:id="@+id/textView30"
+        android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
@@ -32,7 +32,7 @@
         android:text="Car Details" />
 
     <ImageView
-        android:id="@+id/imageView18"
+        android:id="@+id/img_star"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52.6dp"
@@ -46,14 +46,14 @@
         android:layout_height="0dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/top_curved"
-        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page11back">
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_page11"
+            android:id="@+id/recyclerview"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -63,7 +63,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout2"
+        android:id="@+id/constraintLayout"
         android:layout_width="0dp"
         android:layout_height="85dp"
         android:background="#ffffff"
@@ -72,7 +72,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/INRlayoutp11"
+            android:id="@+id/layoutbtn_price"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="18dp"
@@ -81,12 +81,12 @@
             android:layout_marginBottom="12dp"
             android:background="@drawable/blue_rounded_border"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/checklayoutp11"
+            app:layout_constraintEnd_toStartOf="@+id/layoutbtn_checkavai"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/textView34"
+                android:id="@+id/txt_price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="14.5dp"
@@ -97,12 +97,12 @@
                 android:textColor="#2680eb"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toTopOf="@+id/textView35"
+                app:layout_constraintBottom_toTopOf="@+id/txt_perday"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView35"
+                android:id="@+id/txt_perday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="14.5dp"
@@ -114,11 +114,11 @@
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView34" />
+                app:layout_constraintTop_toBottomOf="@+id/txt_price" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/checklayoutp11"
+            android:id="@+id/layoutbtn_checkavai"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="6dp"
@@ -128,11 +128,11 @@
             android:background="@drawable/blue_rounded"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/INRlayoutp11"
+            app:layout_constraintStart_toEndOf="@+id/layoutbtn_price"
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/textcheck"
+                android:id="@+id/txt_checkavai"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="3sp"

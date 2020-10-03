@@ -12,10 +12,10 @@ import com.example.sampleui2.R
 
 class MyCarsAdapter(var list: List<MyCarsModel>):RecyclerView.Adapter<MyCarsAdapter.ViewHolder>() {
     class ViewHolder(itemView:View) : RecyclerView.ViewHolder(itemView){
-        private var tvcarname : TextView = itemView.findViewById(R.id.page48_carname)
-        private var tvcarno : TextView = itemView.findViewById(R.id.page48_carno)
-        private var tvcarstatus: TextView = itemView.findViewById(R.id.page48_carstatus)
-        private var img : ImageView = itemView.findViewById(R.id.page48_image)
+        private var tvcarname : TextView = itemView.findViewById(R.id.txt_name)
+        private var tvcarno : TextView = itemView.findViewById(R.id.txt_number)
+        private var tvcarstatus: TextView = itemView.findViewById(R.id.txt_status)
+        private var img : ImageView = itemView.findViewById(R.id.img_car)
         fun bindItems(carname:String,carno:String,carstatus:Boolean,resource:Int){
             tvcarname.text = carname
             tvcarno.text = carno

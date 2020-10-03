@@ -17,7 +17,7 @@ class CarPreferences : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.other_carpreferences_activity)
-        val rv: RecyclerView = findViewById(R.id.rv_page29)
+        val rv: RecyclerView = findViewById(R.id.recyclerview)
 
         val list = listOf(
                 CarPreferencesModel(0,"Minimal Age","25 Years"),
@@ -36,10 +36,10 @@ class CarPreferences : AppCompatActivity() {
                 (resources.displayMetrics.density * 18).roundToInt(),
                 (resources.displayMetrics.density * 18).roundToInt()
         ))
-        findViewById<ImageView>(R.id.page29_back).setOnClickListener {
+        findViewById<ImageView>(R.id.img_back).setOnClickListener {
             finish()
         }
-        findViewById<Button>(R.id.buttonP29).setOnClickListener {
+        findViewById<Button>(R.id.btn_continue).setOnClickListener {
             startActivity(Intent(this, FinalPage::class.java))
         }
     }

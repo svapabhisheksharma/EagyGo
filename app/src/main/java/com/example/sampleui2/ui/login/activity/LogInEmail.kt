@@ -16,7 +16,7 @@ class LogInEmail : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login_signinemail)
 
-        val textview:TextView = findViewById(R.id.spannabletext)
+        val textview:TextView = findViewById(R.id.txt_signup)
 
         var text = "No Account Yet?  Sign Up"
 

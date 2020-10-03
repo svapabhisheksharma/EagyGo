@@ -8,7 +8,7 @@
     tools:context=".ui.other.activity.CarFreeKM">
 
     <ImageView
-        android:id="@+id/page25_back"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ic_backshade" />
 
     <TextView
-        android:id="@+id/page25_heading"
+        android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
@@ -39,10 +39,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page25_back">
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
 
         <TextView
-            android:id="@+id/textView22"
+            android:id="@+id/txt_toptext"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -57,7 +57,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView23"
+            android:id="@+id/txt_freekm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -68,10 +68,10 @@
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_toptext" />
 
         <TextView
-            android:id="@+id/textView24"
+            android:id="@+id/txt_freekmfield"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -81,10 +81,10 @@
             android:textColor="#4f5962"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_freekm" />
 
         <View
-            android:id="@+id/divider4"
+            android:id="@+id/divider_1"
             android:layout_width="0dp"
             android:layout_height="1dp"
             android:layout_marginStart="18dp"
@@ -93,10 +93,10 @@
             android:background="?android:attr/listDivider"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_freekmfield" />
 
         <TextView
-            android:id="@+id/textView25"
+            android:id="@+id/txt_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -107,10 +107,10 @@
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/divider4" />
+            app:layout_constraintTop_toBottomOf="@+id/divider_1" />
 
         <TextView
-            android:id="@+id/textView26"
+            android:id="@+id/txt_pricefield"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -120,10 +120,10 @@
             android:textColor="#4f5962"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_price" />
 
         <View
-            android:id="@+id/divider5"
+            android:id="@+id/divider_2"
             android:layout_width="0dp"
             android:layout_height="1dp"
             android:layout_marginStart="18dp"
@@ -132,10 +132,10 @@
             android:background="?android:attr/listDivider"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_pricefield" />
 
         <Button
-            android:id="@+id/buttonP25"
+            android:id="@+id/btn_continue"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

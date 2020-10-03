@@ -40,7 +40,7 @@ class Page49Fragment : Fragment() {
         // Inflate the layout for this fragment
         val view: View = inflater.inflate(R.layout.favourite_fragment, container, false)
 
-        val rv: RecyclerView = view.findViewById(R.id.rvp49)
+        val rv: RecyclerView = view.findViewById(R.id.recyclerview)
 
         rv.layoutManager = LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL,false)
         rv.adapter = HomeAdapter(6,activity,true)

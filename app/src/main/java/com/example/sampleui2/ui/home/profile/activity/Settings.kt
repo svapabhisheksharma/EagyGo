@@ -18,7 +18,7 @@ class Settings : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.profile_settings_activity)
 
-        val back : ImageView = findViewById(R.id.page18_back)
+        val back : ImageView = findViewById(R.id.img_back)
         val list = ArrayList<SettingsModel>()
         list.add(SettingsModel("Car Performance",R.drawable.ic_performance))
         list.add(SettingsModel("About Us",R.drawable.ic_aboutus))
@@ -26,7 +26,7 @@ class Settings : AppCompatActivity() {
         list.add(SettingsModel("Refund Policy",R.drawable.ic_refund))
         list.add(SettingsModel("Contact Support",R.drawable.ic_support))
 
-        val rv = findViewById<RecyclerView>(R.id.rvpage18)
+        val rv = findViewById<RecyclerView>(R.id.recyclerview)
 
         rv.adapter = SettingsAdapter(list,this::itemClickHandler)
         rv.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)

@@ -13,7 +13,7 @@ class Home1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.home_activity_1)
 
-        val rv:RecyclerView = findViewById(R.id.rvlol)
+        val rv:RecyclerView = findViewById(R.id.recyclerview)
 
         rv.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
         //rv.adapter = Adapter8910(6)

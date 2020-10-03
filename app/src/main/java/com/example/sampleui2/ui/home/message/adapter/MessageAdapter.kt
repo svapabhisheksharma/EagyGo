@@ -37,8 +37,8 @@ class AdapterFrag40(var list: List<MessageModel>):RecyclerView.Adapter<RecyclerV
 
     class Viewholder(itemView:View) : RecyclerView.ViewHolder(itemView) {
 
-        private val name : TextView = itemView.findViewById(R.id.name_frag40)
-        private val imageView:ImageView = itemView.findViewById(R.id.imagefrag40)
+        private val name : TextView = itemView.findViewById(R.id.txt_name)
+        private val imageView:ImageView = itemView.findViewById(R.id.img_person)
         fun bindItems(name:String,resource:Int) {
             imageView.setImageResource(resource)
             this.name.text = name

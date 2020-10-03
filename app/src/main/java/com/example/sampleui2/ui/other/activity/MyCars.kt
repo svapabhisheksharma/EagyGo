@@ -15,7 +15,7 @@ class MyCars : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.other_mycars_activity)
 
-        val rv :RecyclerView = findViewById(R.id.page48_rv)
+        val rv :RecyclerView = findViewById(R.id.recyclerview)
 
         var list = ArrayList<MyCarsModel>()
 

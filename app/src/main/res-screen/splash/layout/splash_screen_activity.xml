@@ -8,7 +8,7 @@
     tools:context=".ui.splash.activity.SplashScreen">
 
     <ImageView
-        android:id="@+id/imageView70"
+        android:id="@+id/img_topimage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="158dp"
@@ -19,18 +19,19 @@
         app:srcCompat="@drawable/ic_layer_x_0020_1" />
 
     <ImageView
-        android:id="@+id/imageView73"
+        android:id="@+id/img_background"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginTop="2dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView70"
-        app:srcCompat="@drawable/transcar"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_topimage"
+        app:srcCompat="@drawable/transcar" />
 
     <ImageView
-        android:id="@+id/imageView74"
+        android:id="@+id/img_bottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="71dp"

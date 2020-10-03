@@ -12,13 +12,13 @@ class ChangePassword : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.profile_edit_changepassword_activity)
 
-        val back = findViewById<ImageView>(R.id.page17_back)
+        val back = findViewById<ImageView>(R.id.img_back)
 
 
         back.setOnClickListener {
             finish()
         }
-        val save = findViewById<Button>(R.id.page17_save)
+        val save = findViewById<Button>(R.id.btn_save)
         save.setOnClickListener {
             Toast.makeText(applicationContext,"Password Changed Successfully",Toast.LENGTH_SHORT).show()
         }

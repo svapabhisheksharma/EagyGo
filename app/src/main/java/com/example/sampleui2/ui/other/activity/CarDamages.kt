@@ -23,7 +23,7 @@ class CarDamages : AppCompatActivity() {
         list.add(CarDamagesModel(R.drawable.maxresdefault))
         list.add(CarDamagesModel(R.drawable.maxresdefault))
 
-        val rv : RecyclerView = findViewById(R.id.page50_rv)
+        val rv : RecyclerView = findViewById(R.id.recyclerview)
 
         rv.layoutManager = GridLayoutManager(this,2)
         rv.adapter = CarDamagesAdapter(list)

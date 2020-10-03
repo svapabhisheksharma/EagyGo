@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/page48_image"
+        android:id="@+id/img_car"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -15,7 +15,7 @@
         app:srcCompat="@drawable/maxresdefault" />
 
     <TextView
-        android:id="@+id/page48_carname"
+        android:id="@+id/txt_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
@@ -25,11 +25,11 @@
         android:textColor="#4f5962"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/page48_image"
+        app:layout_constraintStart_toEndOf="@+id/img_car"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/page48_carno"
+        android:id="@+id/txt_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
@@ -38,11 +38,11 @@
         android:text="RJ 14 VC 3392"
         android:textColor="#4f5962"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/page48_image"
-        app:layout_constraintTop_toBottomOf="@+id/page48_carname" />
+        app:layout_constraintStart_toEndOf="@+id/img_car"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name" />
 
     <TextView
-        android:id="@+id/page48_carstatus"
+        android:id="@+id/txt_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
@@ -50,7 +50,7 @@
         android:lineSpacingExtra="2sp"
         android:textColor="#a4a9ae"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/page48_image"
-        app:layout_constraintTop_toBottomOf="@+id/page48_carno"
+        app:layout_constraintStart_toEndOf="@+id/img_car"
+        app:layout_constraintTop_toBottomOf="@+id/txt_number"
         tools:text="Offline" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,7 +10,7 @@ import com.example.sampleui2.R
 
 class CarDamagesAdapter(var list:List<CarDamagesModel>):RecyclerView.Adapter<CarDamagesAdapter.VH>() {
     class VH(itemView:View):RecyclerView.ViewHolder(itemView) {
-        val image :ImageView = itemView.findViewById(R.id.page50_image)
+        val image :ImageView = itemView.findViewById(R.id.img_car)
         fun bindItems(resource:Int){
             image.setImageResource(resource)
         }

@@ -8,7 +8,7 @@
     tools:context=".ui.other.activity.CarPicture1">
 
     <ImageView
-        android:id="@+id/page27_back"
+        android:id="@+id/img_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ic_backshade" />
 
     <TextView
-        android:id="@+id/page27_heading"
+        android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
@@ -39,10 +39,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/page27_back">
+        app:layout_constraintTop_toBottomOf="@+id/img_back">
 
         <Button
-            android:id="@+id/buttonP27"
+            android:id="@+id/btn_continue"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
-            android:id="@+id/textView60"
+            android:id="@+id/txt_heading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -73,7 +73,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView61"
+            android:id="@+id/txt_subheading"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -85,10 +85,10 @@
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView60" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_heading" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imgbtn_addpicture"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="198dp"
@@ -99,11 +99,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView61"
+            app:layout_constraintTop_toBottomOf="@+id/txt_subheading"
             app:srcCompat="@drawable/ic_add" />
 
         <TextView
-            android:id="@+id/textView62"
+            android:id="@+id/txt_viewall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="27dp"
@@ -111,7 +111,7 @@
             android:textColor="#2680eb"
             android:lineSpacingExtra="3sp"
             android:text="View all images "
-            app:layout_constraintBottom_toTopOf="@+id/buttonP27"
+            app:layout_constraintBottom_toTopOf="@+id/btn_continue"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
