@@ -5,6 +5,25 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 
+sourceSets{
+    main{
+        res.srcDirs =
+                [
+                        'src/main/res-screen/home',
+                        'src/main/res-screen',
+                        'src/main/res-screen/home/home',
+                        'src/main/res-screen/home/bookings',
+                        'src/main/res-screen/home/favourites',
+                        'src/main/res-screen/home/message',
+                        'src/main/res-screen/home/profile',
+                        'src/main/res-screen/login',
+                        'src/main/res-screen/other',
+                        'src/main/res-screen/splash',
+                        'src/main/res'
+                ]
+    }
+}
+
     defaultConfig {
         applicationId "com.example.sampleui2"
         minSdkVersion 26

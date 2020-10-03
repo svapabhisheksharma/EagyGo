@@ -9,48 +9,49 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Page43.Page43"></activity>
-        <activity android:name=".Page29.Page29" />
-        <activity android:name=".Page24.Page24" />
-        <activity android:name=".Page23.Page23" />
-        <activity android:name=".Page35363839.Page35363839" />
-        <activity android:name=".Page41.Page41" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.splash.activity.SplashScreen"></activity>
+        <activity android:name=".ui.home.bookings.activity.Rate" />
+        <activity android:name=".ui.other.activity.CarPreferences" />
+        <activity android:name=".ui.other.activity.CarDetails" />
+        <activity android:name=".ui.other.activity.CarAccesories" />
+        <activity android:name=".ui.home.bookings.activity.BookingTile" />
+        <activity android:name=".ui.home.message.activity.Chat" />
+        <activity android:name=".ui.home.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Page20.Page20" />
-        <activity android:name=".Page18.Page18" />
-        <activity android:name=".Page16.Page16" />
-        <activity android:name=".Page32.Page32" />
-        <activity android:name=".Page31.Page31" />
-        <activity android:name=".Page28.Page28" />
-        <activity android:name=".Page27.Page27" />
-        <activity android:name=".Page26.Page26" />
-        <activity android:name=".Page1112.Page11" />
-        <activity android:name=".Page6.Page6" />
-        <activity android:name=".Page7.Page7" />
-        <activity android:name=".Page21.Page21" />
-        <activity android:name=".Page25.Page25" />
-        <activity android:name=".Page22.Page22" />
-        <activity android:name=".Page52.Page52" />
-        <activity android:name=".Page54.Page54" />
-        <activity android:name=".Page53.Page53" />
-        <activity android:name=".Page50.Page50" />
-        <activity android:name=".Page44.Page44" />
-        <activity android:name=".Page48.Page48" />
-        <activity android:name=".Page19.Page19" />
-        <activity android:name=".Page17.Page17" />
-        <activity android:name=".Page8910.Page10" />
-        <activity android:name=".Page8910.Page9" />
-        <activity android:name=".Page3.Page3" />
-        <activity android:name=".Page5.Page5" />
-        <activity android:name=".Page4.Page4" />
-        <activity android:name=".Page2.Page2" />
-        <activity android:name=".Page8910.Page8" />
+        <activity android:name=".ui.home.profile.activity.Performance" />
+        <activity android:name=".ui.home.profile.activity.Settings" />
+        <activity android:name=".ui.home.profile.activity.EditProfile" />
+        <activity android:name=".ui.other.activity.Reviews" />
+        <activity android:name=".ui.other.activity.FinalPage" />
+        <activity android:name=".ui.other.activity.CarPicture2" />
+        <activity android:name=".ui.other.activity.CarPicture1" />
+        <activity android:name=".ui.other.activity.CarInsurance" />
+        <activity android:name=".ui.home.home.activity.HomeTile" />
+        <activity android:name=".ui.login.activity.ForgotPassword" />
+        <activity android:name=".ui.login.activity.ResetPassword" />
+        <activity android:name=".ui.other.activity.CarNumber" />
+        <activity android:name=".ui.other.activity.CarFreeKM" />
+        <activity android:name=".ui.other.activity.CarAbout" />
+        <activity android:name=".ui.other.activity.StartTrip" />
+        <activity android:name=".ui.other.activity.DrivingLiscense" />
+        <activity android:name=".ui.other.activity.CurrentKM" />
+        <activity android:name=".ui.other.activity.CarDamages" />
+        <activity android:name=".ui.other.activity.Filters" />
+        <activity android:name=".ui.other.activity.MyCars" />
+        <activity android:name=".ui.home.profile.activity.PrivacyPolicy" />
+        <activity android:name=".ui.home.profile.activity.ChangePassword" />
+        <activity android:name=".ui.home.home.activity.Home3" />
+        <activity android:name=".ui.home.home.activity.Home2" />
+        <activity android:name=".ui.login.activity.SignUpEmail" />
+        <activity android:name=".ui.login.activity.LogInEmail" />
+        <activity android:name=".ui.login.activity.LogInOptions" />
+        <activity android:name=".ui.login.activity.SignUpOptions" />
+        <activity android:name=".ui.home.home.activity.Home1" />
     </application>
 
 </manifest>
